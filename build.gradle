@@ -1,0 +1,41 @@
+group 'co.com.your_company.certification'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenCentral()
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.34")
+    }
+}
+
+
+dependencies {
+    implementation group: 'net.serenity-bdd', name: 'serenity-junit', version: '2.0.81'
+    implementation group: 'net.serenity-bdd', name: 'serenity-core', version: '2.0.81'
+    implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.45'
+    implementation group: 'net.serenity-bdd', name: 'serenity-screenplay', version: '2.0.81'
+    implementation group: 'net.serenity-bdd', name: 'serenity-reports', version: '2.0.81'
+}
+
+tasks.withType(Test){
+    systemProperties = System.properties
+    maxParallelForks = Runtime.runtime.availableProcessors()
+}
+
+gradle.startParameter.continueOnFailure = true

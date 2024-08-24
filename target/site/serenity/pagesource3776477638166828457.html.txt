@@ -1,0 +1,1169 @@
+<html xmlns="http://www.w3.org/1999/xhtml" class="dxChrome dxWindowsPlatform dxWebKitFamily dxBrowserVersion-128 dxTheme-Metropolis"><head id="Head1"><link rel="stylesheet" href="/RWA/DXHotels/DXR.axd?r=1_66,1_67,1_207,0_2211,0_8,0_2206,0_2313,0_2318,1_208,1_72-M81it">
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="//matomo.devexpress.com/matomo.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-TP4P4KW"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TP4P4KW');</script>
+<!-- End Google Tag Manager -->
+    <title>
+	DXHotels Demo | ASP.NET Controls by DevExpress
+</title><link href="Content/Styles.css" rel="stylesheet">
+    <script src="Content/jquery.min.js" type="text/javascript"></script>
+    <script src="Content/Scripts.js" type="text/javascript"></script>
+    
+    <style></style><script src="https://matomo.devexpress.com/plugins/HeatmapSessionRecording/configs.php?idsite=3&amp;trackerid=k8eIcG&amp;url=https%3A%2F%2Fdemos.devexpress.com%2Frwa%2Fdxhotels%2F" async="" defer=""></script></head>
+<body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TP4P4KW"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <form method="post" action="./" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="u2nB/pdQCRPoujHbZ+2bdXnaQjvjRNnYIGnb8L4x8HxTtfOHi418DE2q/MX6RSQW8tb77nHnQvoA+b6gi5PR6k/X+QMUl4G+zmQtZbJ0MX58mji9j7cmf8ZYD/TB36RMwLzQj09cBHSab8KU12IzbUBsQcvLziVAAzMttgPEeClpsO4SFeDXZOd2kyCk9X+p8Rg2gLjM2ohIkiXYWAujrquHqSJhyc9qjrc8bUatme/K7oWKh+eCGMJwSimWX2Ct6+PDD9xYNT1t0PP2hCzJ3id7tyoPnXr9X2j3AOqRDSFS69GPM4WgwpizrMmeVloqhJ8ALcRiTQPhYMInsXYsS5Qi6S9gBaVNjqro4uPnVSs9AJGdzJ3x5ykTX+ob2ubfT+BhWgdOImz4SoVZij03rpscC5clUFQUxcLW3Nd9AKc2o3q7v4Gk215XLqkvbkhqcBl52jknYmjskAEFo344uA/JHy4Jnlnx/lzFDwInimjQlIviE0oQldQvo3HjeyTJYTirctXrsH8oEghO11ME1kfp9VgkmENsONBP2EqmNzS+0DrNaETIyOAGQV72lI1n2W80Lwvuof6RX9ForF0GTKUztEMFksdkHsaOA3+Hkv0Qsrnw3cTY72pU+fvchsr/kMoHjSzMluhuQ+Mn4uLGmKPkBNeZRDZ8YzTgCeeemPXXuNCaVkpM+NfxWYH+htqjqUIHpu9k07/P/RQIdGBFyN2Lj7CyT9VBZRN2rDh89e2PykRq/RrIQDHUXxBGH91RiXwB7+EMk1FU9312Vomp83ca8e4OUAYhdHFlFnb1ryl3HahSSt5NZEMGZysXcWygo2Ge6HxaLzphfvG5e4xqjkDtUgFCrDVTkz8C4y2FEonEK4BbSGRqMPKfDZGKy/RdcHzXA5TXjRjBu9TIFNiw12EaEmZ3fDV4Xm8/Ku31BQR3BazKtHfOFsz0YEP2LiebkkGOlkGrBr90JKwSns5s+LSlWFK6ZqCfpPdQZvd+cqk5GYtp6nVkAkQMmZoHQVQPHYQ/jhtOqZDJHQlaSZeKude3v93ROL+algQHJutlqKyrozJRa2ELSzbR6aZm20MPIJeX+sqkTDr89erQlE4Qsr03gQ55KokY1MregaM4AVOTYmRbsrZcq0p1w3rs2eyzfdoXqWUYWK2BOynAXRmkJQNrPERO7NO8b+1kDAbkLSbY8/TrQRpR3umxcWu4LjSO2nFZTVUIXEJB8Q2Yd+V18vGryRAzkatX/8Uly28KOfJ24GURRPbAsNpkmCHsICGxAAcIrAnKW/FtKh82WRzrTmdgXL8KzjGKCcSFwAD1W/56606lSuANmN2eAk/ywDqYY+BiUtu2YHoZA8+xaPQ+Y7uhMGNHVoliKAQxdgMo0iOzc52DVGU9WS5RqFekqtXIICIn7fvAqW+7SkaHTB6VnitoJ6eDYcwYZC94TqcNfNMCYgQtliTJKVmHgPs2LbLfcv1ZI1S0xh3Qog9QVvba6Ie//oC8OwxuPlxxuwTSSPc1dNObzi4DTZHesqHLq1BiGo9B+MVwt0gmBZsM42tQYIWGdVTrZCzb5ZkPkwE0G1Dii35H2kfQxKpfigkvqu3fhdrbaNq9YKrXoqu/UFtrANuo+TfdQ5RDa4+tcJXXoVl1l6gE7XOGS6PaSX9tCSfTEx0F60KtqH+s0+Xsir5g74d/AT0zQwhqrTyQvIZmo1ly6vAdTRC85dIBfMj8gmeJ1+MzHD4Rs0NJ27Fa1raN6zUYhuqwuskaqW3LE+CzOZZ9orqb6zBSsoUxEgz506XXPqTdE0RmSXdqlY3E0ng1YQHrRCTW2UF8yd9Sy74UR4q2aTfHdIB7y/qNI8Z34RtWinBMYco2yCqFLCzcPoD051obn0O68bALFvY130IGxxnP+v7ExbU1+K20u6jhF5cwxPoghtTjC71kN5g06fu2oo8SYSPjAlZQiSwgSxNvSoAPFXEoc4jQ5ZdPzLHyUb+1BZsa7nqMXic7jaDgo0xeuFR6xppERciXLMvw4nkxBKT9Hs+wk+qyLkzlWOS3XG1xtEYZ8Sm0ECs13HtSeSBYQOaH+uNFQYx9gs1TZEBsTZCkGXWV6R42HbNCBiZImWjtsjY+bPfHQmQCijHuFwGQMu6d1nakmD067VDbZjmfUK5nHyFGv3EOOn8R2yQWiI9uPMeBClW5craYlX3YKW4EV+WpL+GVb1nX/He2TT+JAtQglfb+5vvMgyaKY5j9m9WVQb4Q49eF5Q4v2t9YNFngeNx9cdYTL/2XX+akSml5cKaHunTaPs3PFf9hmCQDyk3Ag1+DHgEXSSISH+MBnoPgOgAP3ORz3Kf2DV90wmo93nzsHTz4hCnnpB4wgbW366jQbOebCQyJpOAZ1HaX932LJHEDX2AegnHDh8JBop+Ja81IrHzK">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/RWA/DXHotels/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZDHQcqNjtOKyrzSrEahrGsrTb7EN9PPQJuqwUuQuJetGI06YeQ2&amp;t=638459572569584809" type="text/javascript"></script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="4877AAA1">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="FwXo4U2BNbJZzmgl8vTd+FtiwxN6Gjt/5MlSWrE9rs4Ps7+zpKPWv0vflX24kUQYfPnXvy24d8f+JzPDX87t5Nw9oxyCViebRfATkhJxxGLc5qbIrh+Jm2ukoxWaXgAAwJgS99wbQXOBuvaFFWVzBavXfENULaim+NSls/1mcbCWWObXySnL191++9fLQDcMzQuyQUr0wPVj9OGU+nBQQ/JjXc3JfuMO8RNlwgpdXsyFVQAbzE6Mk2JNVbSJ/vvb0dh6h+gmjnXSQ+AJ5q5nhD4QVeMWvVAwEJIAKU/k+aDFpoT5rKbSARDfTxUC6zJHjST//Q==">
+</div>
+        <div class="page">
+            
+<script type="text/javascript">
+    function hideLoginPanel(s, e) {
+        pcLogin.Hide();
+    }
+    function showLoginPanel(s, e) {
+        pcLogin.Show();
+    }
+</script>
+<div class="header">
+    <div class="content-column">
+        <div class="logo">
+            <script id="dxis_2023560551" src="/RWA/DXHotels/DXR.axd?r=1_9,1_10,1_253,1_21,1_62,1_11,1_12,1_13,1_180,1_15,1_39,1_58,1_181,1_182,1_201,1_19,1_20,1_188,1_184,1_191,1_200,1_190,1_192,1_193,1_46,1_7,1_52,1_51,1_53,1_187,1_57,1_54-L81it"></script><a class="dxeHyperlink_Metropolis" id="HeaderControl_hlLogo" href="Default.aspx"><img src="Content/Images/Header.png" alt=""></a>
+        </div>
+        <div class="buttons">
+            <div class="dxbButton_Metropolis orangeButton dxbButtonSys dxbTSys" id="HeaderControl_Contact" style="font-size:14px;height:38px;width:107px;-webkit-user-select:none;">
+	<div class="dxb" id="HeaderControl_Contact_CD">
+		<div class="dxb-hbc">
+			<input id="HeaderControl_Contact_I" class="dxb-hb" value="Contact Us" type="submit" name="ctl00$HeaderControl$Contact">
+		</div><span class="dx-vam">Contact Us</span>
+	</div>
+</div><script id="dxss_382407742" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_Contact',[[['dxbButtonHover_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_Contact',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_Contact',[[['dxbf'],[''],['CD']]]);
+ASPx.InitializeSVGSprite();
+ASPx.FillDocumentElementDXThemeCssClassName("Metropolis");
+ASPx.createControl(ASPxClientButton,'HeaderControl_Contact','',{'uniqueID':'ctl00$HeaderControl$Contact'});
+
+//-->
+</script>
+            <div class="dxbButton_Metropolis orangeButton dxbButtonSys dxbTSys" id="HeaderControl_Login" style="font-size:14px;height:38px;width:75px;-webkit-user-select:none;">
+	<div class="dxb" id="HeaderControl_Login_CD">
+		<div class="dxb-hbc">
+			<input id="HeaderControl_Login_I" class="dxb-hb" value="Login" type="submit" name="ctl00$HeaderControl$Login">
+		</div><span class="dx-vam">Login</span>
+	</div>
+</div><script id="dxss_1950946231" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_Login',[[['dxbButtonHover_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_Login',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_Login',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_Login',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_Login','btnLogin',{'uniqueID':'ctl00$HeaderControl$Login'},{'Click':showLoginPanel});
+
+//-->
+</script>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="HeaderControl_LogonControl_PW-1" class="dxpcLite_Metropolis dxpclW" style="width:608px;z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxpc-shadow">
+		<div class="dxpc-contentWrapper">
+			<div class="dxpc-content" id="HeaderControl_LogonControl_PWC-1">
+				
+                <div class="loginPopup">
+                    <div class="title">
+                        LOGIN FORM
+                    </div>
+                    <div class="formLayout">
+                        <div class="dxflFormLayout_Metropolis" id="HeaderControl_LogonControl_LoginFormLayout">
+					<table class="dxflGroup_Metropolis dxflGroupSys dxflAGSys" style="border-collapse:separate;">
+						<tbody><tr>
+							<td id="HeaderControl_LogonControl_LoginFormLayout_0" class="dxflGroupCell_Metropolis" style="padding-top:3px;padding-bottom:3px;"><div class="dxflNestedControlCell_Metropolis dxflCLLSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis" style="width:328px;">
+								
+                                            <table id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+									<tbody><tr>
+										<td id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_CC" style="width:100%;"><table class="dxeTextBoxSys dxeTextBox_Metropolis editor dxeTextBoxDefaultWidthSys dxeNullText_Metropolis dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtEmail" style="height:30px;width:100%;" savedspellcheck="[object Object]" spellcheck="false">
+											<tbody><tr>
+												<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtEmail_I" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$txtEmail" onchange="ASPx.EValueChanged('HeaderControl_LogonControl_LoginFormLayout_txtEmail')" value="Email" type="text" savedspellcheck="[object Object]" spellcheck="false" autocomplete="off"></td>
+											</tr>
+										</tbody></table></td>
+									</tr>
+								</tbody></table><script id="dxss_679260531" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTextBox,'HeaderControl_LogonControl_LoginFormLayout_txtEmail','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$txtEmail','scStates':6,'scPostfix':'Metropolis','stateObject':{'rawValue':''},'validationGroup':'login','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('*'),new ASPx.RegularExpressionValidationPattern('Invalid value', '\\w+([-+.\']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*')],'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'nullText':'Email','nullTextDisplayMode':'UnfocusedAndFocused','nullTextOnFocusCssText':'font-style: italic;'},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''},{'key':'N','className':'dxeNullText_Metropolis','cssText':'font-style:italic;'}]});
+
+//-->
+</script>
+                                        
+							</div></td>
+						</tr><tr>
+							<td id="HeaderControl_LogonControl_LoginFormLayout_1" class="dxflGroupCell_Metropolis" style="padding-top:3px;padding-bottom:3px;"><div class="dxflNestedControlCell_Metropolis dxflCLLSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis" style="width:328px;">
+								
+                                            <table id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+									<tbody><tr>
+										<td id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_CC" style="width:100%;"><table class="dxeTextBoxSys dxeTextBox_Metropolis editor dxeTextBoxDefaultWidthSys dxeNullText_Metropolis dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword" style="height:30px;width:100%;" savedspellcheck="[object Object]" spellcheck="false">
+											<tbody><tr>
+												<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_I" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$txtPassword" onchange="ASPx.EValueChanged('HeaderControl_LogonControl_LoginFormLayout_txtPassword')" type="password" savedspellcheck="[object Object]" spellcheck="false" saveddisplay="[object Object]" autocomplete="off" style="display: none;"><input class="dxeFNTextSys dxh2" tabindex="-1" style="display: none; padding: 0px 1px 0px 0px; border-collapse: separate; border-width: 0px;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_txtPassword_I_CLND" type="text" tabindex="0" saveddisplay="[object Object]" style=""></td>
+											</tr>
+										</tbody></table></td>
+									</tr>
+								</tbody></table><script id="dxss_656697918" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTextBox,'HeaderControl_LogonControl_LoginFormLayout_txtPassword','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$txtPassword','scStates':6,'scPostfix':'Metropolis','stateObject':{'rawValue':''},'validationGroup':'login','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('*')],'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'nullText':'Password','nullTextDisplayMode':'UnfocusedAndFocused','nullTextOnFocusCssText':'font-style: italic;'},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''},{'key':'N','className':'dxeNullText_Metropolis','cssText':'font-style:italic;'}]});
+
+//-->
+</script>
+                                        
+							</div></td>
+						</tr><tr>
+							<td id="HeaderControl_LogonControl_LoginFormLayout_2" class="dxflGroupCell_Metropolis" style="padding-top:22px;padding-bottom:6px;"><div class="dxflNestedControlCell_Metropolis dxflCLLSys dxflItemSys dxflCaptchaItemSys dxflItem_Metropolis" style="width:328px;">
+								
+                                            <table id="HeaderControl_LogonControl_LoginFormLayout_Captcha_LP" class="dxcaLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+									<tbody><tr>
+										<td class="dx"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td>
+									</tr>
+								</tbody></table><div class="dxcaControl_Metropolis captcha" id="HeaderControl_LogonControl_LoginFormLayout_Captcha">
+									<table>
+										<tbody><tr>
+											<td><div id="HeaderControl_LogonControl_LoginFormLayout_Captcha_IMGD" class="dxca-imageDiv" style="background-color:#FF8800;border-width:0px;width:328px;line-height:0px;font-size:0px;">
+												<img id="HeaderControl_LogonControl_LoginFormLayout_Captcha_IMG" src="/RWA/DXHotels/DXB.axd?DXCache=6acdbff7-2648-023c-e85e-11567e1a0d64" alt="Captcha image" style="height:100px;width:328px;">
+											</div></td><td class="dxcaRefreshButtonCell_Metropolis" style="vertical-align:Bottom;padding-left:16px;padding-right:0px;padding-top:0px;padding-bottom:0px;"><a class="dxcaRefreshButton_Metropolis" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_RB" href="javascript:;"><img id="HeaderControl_LogonControl_LoginFormLayout_Captcha_RIMG" class="dx-vam dxEditors_caRefresh_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Show another code" style="margin-right:4px;"><span id="HeaderControl_LogonControl_LoginFormLayout_Captcha_RTS" class="dxcaRefreshButtonText_Metropolis" style="vertical-align:middle;">Show another code</span></a></td>
+										</tr><tr>
+											<td class="dxcaTextBoxCellNoIndent_Metropolis" style="padding-top:3px;padding-bottom:4px;"><table id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_ET" class="dxeValidStEditorTable dxeRoot_Metropolis">
+												<tbody><tr>
+													<td id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_CC" class="dxeErrorFrame_Metropolis dxeErrorFrameSys dxeNoBorderBottom dxeControlsCell_Metropolis"><table class="dxeTextBoxSys dxeTextBox_Metropolis textBox editor dxeTextBoxDefaultWidthSys dxeNullText_Metropolis dxh1" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB" style="width:328px;" savedspellcheck="[object Object]" spellcheck="false">
+														<tbody><tr>
+															<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys dxh1" id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_I" name="ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha$TB" onchange="ASPx.EValueChanged('HeaderControl_LogonControl_LoginFormLayout_Captcha_TB')" value="Type the code" type="text" savedspellcheck="[object Object]" spellcheck="false" autocomplete="off"></td>
+														</tr>
+													</tbody></table></td>
+												</tr><tr>
+													<td id="HeaderControl_LogonControl_LoginFormLayout_Captcha_TB_EC" class="dxeErrorCell_Metropolis dxeErrorFrame_Metropolis dxeErrorFrameSys dxeErrorCellSys dxeNoBorderTop" style="visibility:hidden;white-space:nowrap;">The submitted code is incorrect</td>
+												</tr>
+											</tbody></table><script id="dxss_2057801238" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientTextBox,'HeaderControl_LogonControl_LoginFormLayout_Captcha_TB','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha$TB','scStates':6,'scPostfix':'Metropolis','stateObject':{'rawValue':''},'validationGroup':'login','customValidationEnabled':true,'isValid':true,'errorText':'The submitted code is incorrect','validateOnLeave':false,'isErrorFrameRequired':true,'errorDisplayMode':'t','nullText':'Type the code','nullTextDisplayMode':'UnfocusedAndFocused','nullTextOnFocusCssText':'font-style: italic;','errorCellPosition':'Bottom','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'isCaptchaTextBox':true},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''},{'key':'N','className':'dxeNullText_Metropolis','cssText':'font-style:italic;'}]});
+
+//-->
+</script></td><td></td>
+										</tr>
+									</tbody></table>
+								</div><script id="dxss_175883291" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_LogonControl_LoginFormLayout_Captcha',[[['dxcaRefreshButtonHover_Metropolis'],[''],['RB']]]);
+ASPx.AddDisabledItems('HeaderControl_LogonControl_LoginFormLayout_Captcha',[[['dxcaDisabledRefreshButton_Metropolis'],[''],['RB']],[['dxcaDisabledRefreshButtonText_Metropolis'],[''],['RTS']]]);
+ASPx.createControl(ASPxClientCaptcha,'HeaderControl_LogonControl_LoginFormLayout_Captcha','',{'callBack':function(arg) { WebForm_DoCallback('ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha',arg,ASPx.Callback,'HeaderControl_LogonControl_LoginFormLayout_Captcha',ASPx.CallbackError,true); },'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout$Captcha'});
+
+//-->
+</script>
+                                        
+							</div></td>
+						</tr>
+					</tbody></table>
+				</div><script id="dxss_2078971733" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientFormLayout,'HeaderControl_LogonControl_LoginFormLayout','',{'uniqueID':'ctl00$HeaderControl$LogonControl$LoginFormLayout'});
+
+//-->
+</script>
+                    </div>
+                    <div class="buttons">
+                        <div class="buttonsContainer">
+                            <div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="HeaderControl_LogonControl_btnLoginNow" style="background-color:#F7F7F7;font-size:14px;height:40px;width:110px;-webkit-user-select:none;">
+					<div class="dxb" id="HeaderControl_LogonControl_btnLoginNow_CD">
+						<div class="dxb-hbc">
+							<input id="HeaderControl_LogonControl_btnLoginNow_I" class="dxb-hb" value="Login" type="submit" name="ctl00$HeaderControl$LogonControl$btnLoginNow">
+						</div><span class="dx-vam">Login</span>
+					</div>
+				</div><script id="dxss_524745782" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_LogonControl_btnLoginNow',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_LogonControl_btnLoginNow','',{'autoPostBack':true,'uniqueID':'ctl00$HeaderControl$LogonControl$btnLoginNow','serverEvents':['Click'],'validationGroup':'login'});
+
+//-->
+</script>
+                            <div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="HeaderControl_LogonControl_btnCancelLogin" style="background-color:#F7F7F7;font-size:14px;height:40px;width:110px;-webkit-user-select:none;">
+					<div class="dxb" id="HeaderControl_LogonControl_btnCancelLogin_CD">
+						<div class="dxb-hbc">
+							<input id="HeaderControl_LogonControl_btnCancelLogin_I" class="dxb-hb" value="Cancel" type="submit" name="ctl00$HeaderControl$LogonControl$btnCancelLogin">
+						</div><span class="dx-vam">Cancel</span>
+					</div>
+				</div><script id="dxss_1178705665" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_LogonControl_btnCancelLogin',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_LogonControl_btnCancelLogin','',{'uniqueID':'ctl00$HeaderControl$LogonControl$btnCancelLogin'},{'Click':function(s, e) { hideLoginPanel(); }});
+
+//-->
+</script>
+                        </div>
+                    </div>
+                </div>
+		    
+			</div>
+		</div>
+	</div>
+</div><div id="HeaderControl_LogonControl_DXPWMB-1" class="dxpcModalBackLite_Metropolis" style="z-index:9999;">
+
+</div><table id="HeaderControl_LogonControl_LP" class="dxpcLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="HeaderControl_LogonControl_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="HeaderControl_LogonControl_LD" class="dxpcLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_1537368194" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientPopupControl,'HeaderControl_LogonControl','pcLogin',{'callBack':function(arg) { WebForm_DoCallback('ctl00$HeaderControl$LogonControl',arg,ASPx.Callback,'HeaderControl_LogonControl',ASPx.CallbackError,true); },'uniqueID':'ctl00$HeaderControl$LogonControl','popupAnimationType':'fade','popupHorizontalAlign':'WindowCenter','popupVerticalAlign':'WindowCenter','isPopupPositionCorrectionOn':false,'modal':true,'width':608,'widthFromServer':true,'hideBodyScrollWhenModal':false});
+
+//-->
+</script>
+    <div id="HeaderControl_ContactUsControl_PW-1" class="dxpcLite_Metropolis dxpclW" style="width:460px;z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxpc-shadow">
+		<div class="dxpc-contentWrapper">
+			<div class="dxpc-content" id="HeaderControl_ContactUsControl_PWC-1">
+				
+			    <div class="contactUs">
+                    <h2 class="title">Your Next Great Web App Starts Here</h2>
+                    <br>
+                    <div class="text">
+                        To learn more about DevExpress Subscriptions and obtain pricing
+                        <br>
+                        information, visit our <a class="orangeLink" href="https://www.devexpress.com/Subscriptions/">Compare Features and Pricing</a> webpage.
+                    </div>
+                    <br>
+                    <div class="text">
+                        If you have any questions or require assistance, call us at
+                        <br>
+                        +1 (818) 844-3383 between 7:30am and 4:30pm Pacific Time
+                        <br>
+                        or email <a class="orangeLink" href="mailto:info@devexpress.com">info@devexpress.com</a>
+                    </div>
+                    <br>
+				    <div class="text">
+                        Download your free <a class="orangeLink" href="https://www.devexpress.com/products/try/">30-day trial</a> today.
+				    </div>
+                    <br>
+					<div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="HeaderControl_ContactUsControl_btnCloseContact" style="background-color:#F7F7F7;font-size:14px;height:40px;width:420px;-webkit-user-select:none;">
+					<div class="dxb" id="HeaderControl_ContactUsControl_btnCloseContact_CD">
+						<div class="dxb-hbc">
+							<input id="HeaderControl_ContactUsControl_btnCloseContact_I" class="dxb-hb" value="Close" type="submit" name="ctl00$HeaderControl$ContactUsControl$btnCloseContact">
+						</div><span class="dx-vam">Close</span>
+					</div>
+				</div><script id="dxss_142975911" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('HeaderControl_ContactUsControl_btnCloseContact',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'HeaderControl_ContactUsControl_btnCloseContact','',{'uniqueID':'ctl00$HeaderControl$ContactUsControl$btnCloseContact'},{'Click':function(s, e) { pcContact.Hide(); }});
+
+//-->
+</script>
+			    </div>
+		    
+			</div>
+		</div>
+	</div>
+</div><table id="HeaderControl_ContactUsControl_LP" class="dxpcLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="HeaderControl_ContactUsControl_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="HeaderControl_ContactUsControl_LD" class="dxpcLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_628621522" data-executed="true">
+<!--
+ASPx.AddHoverItems('HeaderControl_ContactUsControl',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'HeaderControl_ContactUsControl','pcContact',{'callBack':function(arg) { WebForm_DoCallback('ctl00$HeaderControl$ContactUsControl',arg,ASPx.Callback,'HeaderControl_ContactUsControl',ASPx.CallbackError,true); },'uniqueID':'ctl00$HeaderControl$ContactUsControl','popupAnimationType':'slide','popupHorizontalAlign':'RightSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false,'width':460,'widthFromServer':true,'defaultWindowPopupElementIDList':['HeaderControl_Contact']});
+
+//-->
+</script>
+</div>
+
+            <div>
+                
+    <div class="index-banner">
+        <div class="searchPanelContainer">
+            
+<script type="text/javascript">
+    function CalcRooms() {
+        RoomsComboBox.SetText(Math.ceil(AdultsSpinEdit.GetNumber() / 2));
+    };
+    function SetChildMax() {
+        ChildrenSpinEdit.SetMaxValue(AdultsSpinEdit.GetNumber() * 3);
+        if (ChildrenSpinEdit.GetNumber() > ChildrenSpinEdit.GetMaxValue()) {
+            ChildrenSpinEdit.SetNumber(ChildrenSpinEdit.GetMaxValue());
+        }
+        CalcRooms();
+    };
+    function ValidateAndPerformSearch() {
+        if (ASPxClientEdit.ValidateGroup('location') & ASPxClientEdit.ValidateGroup('dateRange') & ASPxClientEdit.ValidateGroup('search'))
+           CallbackPanel.PerformCallback('');
+    };
+</script>
+<div id="MainContentPlaceHolder_SearchPanel_Search" class="search-panel">
+    <div class="dxflFormLayout_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout" style="height:100%;width:100%;">
+	<table class="dxflGroup_Metropolis dxflGroupSys dxflAGSys" style="border-collapse:separate;">
+		<tbody><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_0" class="dxflGroupCell_Metropolis dxflChildInFirstRowSys dxflFirstChildInRowSys dxflLastChildInRowSys" colspan="3" data-left="177.33334350585938"><div class="dxflNestedControlCell_Metropolis dxflCLTSys dxflItemSys dxflTextItemSys dxflItem_Metropolis item">
+				
+                        <h3>HOTEL SEARCH</h3>
+                    
+			</div></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_1" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" colspan="3" data-left="177.33334350585938"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item cmbLocs" style="border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis item-caption" for="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_I">Location</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis" style="width:100%;">
+                        <script id="dxss_131374772" data-executed="true">
+<!--
+(function(){
+var a = {'is12HoursCulture':true,'numNegInf':'-∞','percentPattern':1,'twoDigitYearMax':2049,'numPosInf':'∞'};
+for(var b in a) ASPx.CultureInfo[b] = a[b];
+})();
+
+
+//-->
+</script><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+						<tbody><tr>
+							<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_CC" style="width:100%;"><table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox" style="height:30px;width:100%;">
+								<tbody><tr>
+									<td style="display:none;"><input id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_VI" name="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_VI" type="hidden"></td><td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_I" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$LocationComboBox" onchange="ASPx.ETextChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox')" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_B-1" class="dxeButton dxeButtonEditButton_Metropolis" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_B-1Img" class="dxEditors_edtDropDown_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="v"></td>
+								</tr>
+							</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+								<div class="dxpc-mainDiv dxdd-list dxpc-shadow">
+									<div class="dxpc-contentWrapper">
+										<div class="dxpc-content" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_PWC-1">
+											<table class="dxeListBox_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L" style="font-size:14px;border-collapse:separate;">
+												<tbody><tr>
+													<td style="vertical-align:Top;"><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_H" class="dxeHD">
+														<table style="width:100%;border-collapse:separate;table-layout:fixed!important;">
+															<tbody><tr>
+																<td class="dxeListBoxItem_Metropolis dxeHFC" style="width:40%;">City</td><td class="dxeListBoxItem_Metropolis dxeHC" style="width:30%;">Country</td><td class="dxeListBoxItem_Metropolis dxeHLC" style="width:30%;"># of Hotels</td>
+															</tr>
+														</tbody></table>
+													</div><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_D" class="dxlbd" style="overflow-x:hidden;overflow-y:auto;"><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_LLBVSTC" style="overflow: hidden; width: 100%; height: 0px;"><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_LVirtualScrollTopSpacer"></div>
+														<input id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_VI" type="hidden" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$LocationComboBox$DDD$L" value=""><table style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+															<tbody><tr id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_LBI-1" class="dxeListBoxItemRow_Metropolis">
+																<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_LBI-1T0" class="dxeListBoxItem_Metropolis dxeFTM" style="width:40%;">&nbsp;</td><td class="dxeListBoxItem_Metropolis dxeTM" style="width:30%;" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_LBI-1T1">&nbsp;</td><td class="dxeListBoxItem_Metropolis dxeLTM" style="width:30%;" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_LBI-1T2">&nbsp;</td>
+															</tr>
+														</tbody></table><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L_LBT" style="width:100%;border-collapse:separate;table-layout:fixed!important;" class="">
+
+														</table>
+													</div></div></td>
+												</tr>
+											</tbody></table><script id="dxss_1205981146" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientListBox,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD_L','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$LocationComboBox$DDD$L','scStates':6,'scPostfix':'Metropolis','isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'columnFieldNames':['City','Country','Hotels_Count'],'textFormatString':'{0}, {1}','hoverClasses':['dxeListBoxItemHover_Metropolis'],'selectedClasses':['dxeListBoxItemSelected_Metropolis'],'disabledClasses':['dxeDisabled_Metropolis'],'itemsInfo':[{'value':10,'texts':['Hamburg','Germany','4']},{'value':4,'texts':['Honolulu','USA','9']},{'value':1,'texts':['Las Vegas','USA','9']},{'value':8,'texts':['London','United Kingdom','6']},{'value':2,'texts':['Los Angeles','USA','9']},{'value':6,'texts':['Nassau','Bahamas','9']},{'value':5,'texts':['New York City','USA','9']},{'value':7,'texts':['Paris','France','6']},{'value':9,'texts':['Rome','Italy','6']},{'value':3,'texts':['San Francisco','USA','9']}]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+										</div>
+									</div>
+								</div>
+							</div><script id="dxss_759457075" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$LocationComboBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox', e); }});
+
+//-->
+</script></td>
+						</tr>
+					</tbody></table><script id="dxss_1053512593" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox',[[['dxeButtonEditButtonHover_Metropolis'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox',[[['B-100']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox',[[['dxeButtonEditButtonPressed_Metropolis'],[''],['B-1']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox',[[['B-100']]]);
+ASPx.createControl(ASPxClientComboBox,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_LocationComboBox','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$LocationComboBox','validationGroup':'location','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('Location must be selected')],'causesValidation':true,'setFocusOnError':true,'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'autoCompleteAttribute':{'name':'autocomplete','value':'off'},'ddmInput':true,'incrementalFilteringMode':'StartsWith','lastSuccessValue':null,'islastSuccessValueInit':true},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                    </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_2" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" colspan="3" data-left="177.33334350585938"><div class="dxflNestedControlCell_Metropolis dxflCLTSys dxflItemSys dxflCustomItemSys dxflItem_Metropolis item">
+				
+                        <table class="dxvsValidationSummary_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ValidationSummaryLocation" style="display: none;">
+					<tbody><tr>
+						<td class="dxvsRC_Metropolis"><table class="dxvsT_Metropolis" style="width:100%;border-collapse:separate;">
+							<tbody>
+						</tbody></table></td>
+					</tr>
+				</tbody></table><script id="dxss_885850228" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientValidationSummary,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ValidationSummaryLocation','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$ValidationSummaryLocation','validationGroup':'location','sampleErrorContainer':'<tr class="dxvsE_Metropolis"> <td class="dxvsETC_Metropolis"><a class="dxvsHL_Metropolis" href="javascript:;">&nbsp;</a></td></tr>'});
+
+//-->
+</script>
+                    
+			</div></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_3" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys" style="width:50%;" data-left="177.33334350585938"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item cmbLocs" style="width:100%;border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis item-caption" for="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_I">Check in</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis" style="width:100%;">
+                        <table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+						<tbody><tr>
+							<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_CC" style="width:100%;"><table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit" style="height:30px;width:100%;">
+								<tbody><tr>
+									<td class="dxic" onmousedown="return ASPx.DDMC_MD('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit', event)" style="width:100%;padding-left:10px;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_I" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckInDateEdit" onchange="ASPx.ETextChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit')" value="24 Aug 2024" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_B-1" class="dxeButton dxeButtonEditButton_Metropolis" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_B-1Img" src="Content/Images/calendar.png" alt="v"></td>
+								</tr>
+							</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEditOutOfRWarn" class="dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis" style="opacity: 0;"><label>The date must be greater than or equal to 24 Aug 2024</label></div><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+								<div class="dxpc-mainDiv dxdd-cal dxpc-shadow">
+									<div class="dxpc-contentWrapper">
+										<div class="dxpc-content" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_PWC-1">
+											<table style="display:none;">
+												<tbody><tr>
+													<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_D" class="dxeCalendarDay_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DS" class="dxeCalendarSelected_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DH" class="dxeCalendarHover_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DA" class="dxeCalendarOtherMonth_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DO" class="dxeCalendarOutOfRange_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DDD" class="dxeCalendarDayDisabled_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DW" class="dxeCalendarWeekend_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DT" class="dxeCalendarToday_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_DD" class="dxeDisabled_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_FNI" class="dxeCalendarFastNavItem_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_FNIS" class="dxeCalendarFastNavItemSelected_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_FNIH" class="dxeCalendarFastNavItemHover_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_EC_FNIA" class="dxeCalendarFastNavItemOtherPeriod_Metropolis"></td>
+												</tr>
+											</tbody></table><table class="dxeCVC dxeCMMV dxeCalendar_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C">
+												<tbody><tr>
+													<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_v_0x0" style="vertical-align:Top;" class="view-visible"><table style="width:100%;border-collapse:collapse;">
+														<tbody><tr>
+															<td class="dxeCalendarHeader_Metropolis" style="border-top:0;"><table style="width:100%;border-collapse:collapse;">
+																<tbody><tr>
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PTPC_0x0" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PTPC_0x0Img" class="dxEditors_edtCalendarFNPrevPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Back"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PYC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PYC_0x0Img" class="dxEditors_edtCalendarPrevYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous year"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PMC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PMC_0x0Img" class="dxEditors_edtCalendarPrevMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous month"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_TC_0x0" class="dxe" style="width:100%;cursor:default;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_T_0x0" style="cursor:pointer;">August 2024</span></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NMC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NMC_0x0Img" class="dxEditors_edtCalendarNextMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next month" style="visibility:hidden;"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NYC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NYC_0x0Img" class="dxEditors_edtCalendarNextYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next year" style="visibility:hidden;"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NTPC_0x0" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NTPC_0x0Img" class="dxEditors_edtCalendarFNNextPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Forward" style="visibility:hidden;"></td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0" class="dxMonthGridWithWeekNumbers" style="-webkit-user-select:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mt_0x0" style="width:100%;border-collapse:separate;">
+																<tbody><tr class="dx-ac">
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_0"></td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_1">Sun</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_2">Mon</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_3">Tue</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_4">Wed</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_5">Thu</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_6">Fri</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_7">Sat</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_8">31</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_7" savedcursor="[object Object]" style="cursor: pointer;">28</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_8" savedcursor="[object Object]" style="cursor: pointer;">29</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_9" savedcursor="[object Object]" style="cursor: pointer;">30</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_10" savedcursor="[object Object]" style="cursor: pointer;">31</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_11" savedcursor="[object Object]" style="cursor: pointer;">1</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_12" savedcursor="[object Object]" style="cursor: pointer;">2</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_13" savedcursor="[object Object]" style="cursor: pointer;">3</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_9">32</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_14" savedcursor="[object Object]" style="cursor: pointer;">4</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_15" savedcursor="[object Object]" style="cursor: pointer;">5</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_16" savedcursor="[object Object]" style="cursor: pointer;">6</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_17" savedcursor="[object Object]" style="cursor: pointer;">7</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_18" savedcursor="[object Object]" style="cursor: pointer;">8</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_19" savedcursor="[object Object]" style="cursor: pointer;">9</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_20" savedcursor="[object Object]" style="cursor: pointer;">10</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_10">33</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_21" savedcursor="[object Object]" style="cursor: pointer;">11</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_22" savedcursor="[object Object]" style="cursor: pointer;">12</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_23" savedcursor="[object Object]" style="cursor: pointer;">13</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_24" savedcursor="[object Object]" style="cursor: pointer;">14</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_25" savedcursor="[object Object]" style="cursor: pointer;">15</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_26" savedcursor="[object Object]" style="cursor: pointer;">16</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_27" savedcursor="[object Object]" style="cursor: pointer;">17</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_11">34</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_28" savedcursor="[object Object]" style="cursor: pointer;">18</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_29" savedcursor="[object Object]" style="cursor: pointer;">19</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_30" savedcursor="[object Object]" style="cursor: pointer;">20</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_31" savedcursor="[object Object]" style="cursor: pointer;">21</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_32" savedcursor="[object Object]" style="cursor: pointer;">22</td><td class="dxeCalendarDay_Metropolis dxeCalendarOutOfRange_Metropolis dxeCalendarToday_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_33" savedcursor="[object Object]" style="cursor: pointer;">23</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOutOfRange_Metropolis dxeCalendarSelected_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_34" savedcursor="[object Object]" style="cursor: pointer;">24</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_12">35</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_35" savedcursor="[object Object]" style="cursor: pointer;">25</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_36" savedcursor="[object Object]" style="cursor: pointer;">26</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_37" savedcursor="[object Object]" style="cursor: pointer;">27</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_38" savedcursor="[object Object]" style="cursor: pointer;">28</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_39" savedcursor="[object Object]" style="cursor: pointer;">29</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_40" savedcursor="[object Object]" style="cursor: pointer;">30</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_41" savedcursor="[object Object]" style="cursor: pointer;">31</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_0_13">36</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_42">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_43">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_44">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_45">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_46">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_47">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x0_48">&nbsp;</td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0" class="dxFastNavGrid" style="display:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yt_0x0" class="dxeCalendarFastNav_Metropolis" style="height:100%;width:100%;border-collapse:separate;">
+																<tbody><tr>
+																	<td class="dxeCalendarFastNavItemArea_Metropolis" style="height:100%;width:100%;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yt_0x0_n" style="height:100%;width:100%;border-collapse:separate;">
+																		<tbody><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_0">Jan</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_1">Feb</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_2">Mar</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_3">Apr</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_4">May</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_5">Jun</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_6">Jul</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarOutOfRange_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_7">Aug</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_8">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_9">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_10">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x0_11">&nbsp;</td>
+																		</tr>
+																	</tbody></table></td>
+																</tr>
+															</tbody></table></td>
+														</tr>
+													</tbody></table></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_v_0x1" style="vertical-align:Top;"><table style="width:100%;border-collapse:collapse;">
+														<tbody><tr>
+															<td class="dxeCalendarHeader_Metropolis" style="border-top:0;"><table style="width:100%;border-collapse:collapse;">
+																<tbody><tr>
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PTPC_0x1" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PTPC_0x1Img" class="dxEditors_edtCalendarFNPrevPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Back" style="visibility:hidden;"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PYC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PYC_0x1Img" class="dxEditors_edtCalendarPrevYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous year" style="visibility:hidden;"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PMC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_PMC_0x1Img" class="dxEditors_edtCalendarPrevMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous month" style="visibility:hidden;"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_TC_0x1" class="dxe" style="width:100%;cursor:default;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_T_0x1" style="cursor:pointer;">September 2024</span></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NMC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NMC_0x1Img" class="dxEditors_edtCalendarNextMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next month"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NYC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NYC_0x1Img" class="dxEditors_edtCalendarNextYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next year"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NTPC_0x1" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_NTPC_0x1Img" class="dxEditors_edtCalendarFNNextPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Forward"></td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1" class="dxMonthGridWithWeekNumbers" style="-webkit-user-select:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mt_0x1" style="width:100%;border-collapse:separate;">
+																<tbody><tr class="dx-ac">
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_0"></td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_1">Sun</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_2">Mon</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_3">Tue</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_4">Wed</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_5">Thu</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_6">Fri</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_7">Sat</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_8">36</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_7" savedcursor="[object Object]" style="cursor: pointer;">1</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_8" savedcursor="[object Object]" style="cursor: pointer;">2</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_9" savedcursor="[object Object]" style="cursor: pointer;">3</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_10" savedcursor="[object Object]" style="cursor: pointer;">4</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_11" savedcursor="[object Object]" style="cursor: pointer;">5</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_12" savedcursor="[object Object]" style="cursor: pointer;">6</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_13" savedcursor="[object Object]" style="cursor: pointer;">7</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_9">37</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_14" savedcursor="[object Object]" style="cursor: pointer;">8</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_15" savedcursor="[object Object]" style="cursor: pointer;">9</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_16" savedcursor="[object Object]" style="cursor: pointer;">10</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_17" savedcursor="[object Object]" style="cursor: pointer;">11</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_18" savedcursor="[object Object]" style="cursor: pointer;">12</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_19" savedcursor="[object Object]" style="cursor: pointer;">13</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_20" savedcursor="[object Object]" style="cursor: pointer;">14</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_10">38</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_21" savedcursor="[object Object]" style="cursor: pointer;">15</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_22" savedcursor="[object Object]" style="cursor: pointer;">16</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_23" savedcursor="[object Object]" style="cursor: pointer;">17</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_24" savedcursor="[object Object]" style="cursor: pointer;">18</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_25" savedcursor="[object Object]" style="cursor: pointer;">19</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_26" savedcursor="[object Object]" style="cursor: pointer;">20</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_27" savedcursor="[object Object]" style="cursor: pointer;">21</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_11">39</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_28" savedcursor="[object Object]" style="cursor: pointer;">22</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_29" savedcursor="[object Object]" style="cursor: pointer;">23</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_30" savedcursor="[object Object]" style="cursor: pointer;">24</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_31" savedcursor="[object Object]" style="cursor: pointer;">25</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_32" savedcursor="[object Object]" style="cursor: pointer;">26</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_33" savedcursor="[object Object]" style="cursor: pointer;">27</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_34" savedcursor="[object Object]" style="cursor: pointer;">28</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_12">40</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_35" savedcursor="[object Object]" style="cursor: pointer;">29</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_36" savedcursor="[object Object]" style="cursor: pointer;">30</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_37" savedcursor="[object Object]" style="cursor: pointer;">1</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_38" savedcursor="[object Object]" style="cursor: pointer;">2</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_39" savedcursor="[object Object]" style="cursor: pointer;">3</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_40" savedcursor="[object Object]" style="cursor: pointer;">4</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_41" savedcursor="[object Object]" style="cursor: pointer;">5</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_AUX_0_1_13">41</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_42" savedcursor="[object Object]" style="cursor: pointer;">6</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_43" savedcursor="[object Object]" style="cursor: pointer;">7</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_44" savedcursor="[object Object]" style="cursor: pointer;">8</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_45" savedcursor="[object Object]" style="cursor: pointer;">9</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_46" savedcursor="[object Object]" style="cursor: pointer;">10</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_47" savedcursor="[object Object]" style="cursor: pointer;">11</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_mc_0x1_48" savedcursor="[object Object]" style="cursor: pointer;">12</td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1" class="dxFastNavGrid" style="display:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yt_0x1" class="dxeCalendarFastNav_Metropolis" style="height:100%;width:100%;border-collapse:separate;">
+																<tbody><tr>
+																	<td class="dxeCalendarFastNavItemArea_Metropolis" style="height:100%;width:100%;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yt_0x1_n" style="height:100%;width:100%;border-collapse:separate;">
+																		<tbody><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_0">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_1">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_2">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_3">&nbsp;</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_4">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_5">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_6">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_7">&nbsp;</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_8">Sep</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_9">Oct</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_10">Nov</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_yc_0x1_11">Dec</td>
+																		</tr>
+																	</tbody></table></td>
+																</tr>
+															</tbody></table></td>
+														</tr>
+													</tbody></table></td>
+												</tr><tr>
+													<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_F" class="dxeCalendarFooter_Metropolis" colspan="2"><button id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_BT" class="dxeCalendarButton_Metropolis" type="button">Today</button><button id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C_BC" class="dxeCalendarButton_Metropolis" type="button">Clear</button></td>
+												</tr>
+											</tbody></table><script id="dxss_1062262441" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C',[[['dxeCalendarButtonHover_Metropolis'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C',[[['dxeCalendarButtonPressed_Metropolis'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C',[[['dxeDisabled_Metropolis'],[''],['']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']],[[''],[''],['PYC_0x0','PMC_0x0','NMC_0x0','NYC_0x0','PYC_0x1','PMC_0x1','NMC_0x1','NYC_0x1'],,[[{'spriteCssClass':'dxEditors_edtCalendarPrevYearDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarPrevMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextYearDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarPrevYearDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarPrevMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextYearDisabled_Metropolis'}]],['Img']]]);
+ASPx.createControl(ASPxClientCalendar,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD_C','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckInDateEdit$DDD$C','scStates':2,'scPostfix':'Metropolis','serverCurrentDate':new Date(2024,7,23,0,0,0,0),'visibleDate':new Date(2024,7,24,0,0,0,0),'columns':2,'switchToSingleMonthAtWindowInnerWidth':575,'fastNavRollbackTexts':['Back To Days', 'Back To Months', 'Back To Years'],'isDateEditCalendar':true},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}],'selection':[new Date(2024,7,24,0,0,0,0)]});
+
+//-->
+</script>
+										</div>
+									</div>
+								</div>
+							</div><script id="dxss_1150911859" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckInDateEdit$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit', e); }});
+
+//-->
+</script></td>
+						</tr>
+					</tbody></table><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_LP" class="dxeLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+						<tbody><tr>
+							<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit_TL">Loading…</span></td>
+						</tr>
+					</tbody></table><script id="dxss_1856093356" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',[[['dxeButtonEditButtonHover_Metropolis'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',[[['B-100']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',[[['dxeButtonEditButtonPressed_Metropolis'],[''],['B-1']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',[[['B-100']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',[[['dxeDisabled_Metropolis'],[''],['','I']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['B-1'],,[[{'spriteCssClass':'dxIcon_scheduling_today_16x16gray_disabled'}]],['Img']]]);
+ASPx.RemoveDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',[[['B-100'],]]);
+ASPx.createControl(ASPxClientDateEdit,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit','CheckInDateEdit',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckInDateEdit',arg,ASPx.Callback,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckInDateEdit','scStates':2,'scPostfix':'Metropolis','stateObject':{'rawValue':'1724522169394.41','useMinDateInsteadOfNull':false},'validationGroup':'dateRange','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('Check in date is required')],'validateOnLeave':false,'setFocusOnError':true,'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'autoCompleteAttribute':{'name':'autocomplete','value':'off'},'outOfRangeWarningClassName':'dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis','outOfRangeWarningMessages':['The date must be in the range {0}...{1}', 'The date must be greater than or equal to {0}', 'The date must be less than or equal to {0}'],'date':new Date(2024,7,24,17,56,9,394),'dateFormatter':ASPx.DateFormatter.Create('d MMM yyyy')},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''}],'sharedParameters':{'minDate':new Date(2024,7,24,17,56,9,363)}});
+
+//-->
+</script>
+                    </td>
+				</tr>
+			</tbody></table></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_4" class="dxflGroupCell_Metropolis dxflLastChildInRowSys" colspan="2" style="width:50%;" data-left="367.3333435058594"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item cmbLocs" style="width:100%;border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis item-caption" for="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_I">Check out</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis" style="width:100%;">
+                        <table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_ET" class="dxeValidDynEditorTable dxeRoot_Metropolis" style="width:100%;" errorframe="errorFrame">
+						<tbody><tr>
+							<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_CC" style="width:100%;"><table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit" style="height:30px;width:100%;">
+								<tbody><tr>
+									<td class="dxic" onmousedown="return ASPx.DDMC_MD('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit', event)" style="width:100%;padding-left:10px;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_I" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckOutDateEdit" onchange="ASPx.ETextChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit')" value="26 Aug 2024" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_B-1" class="dxeButton dxeButtonEditButton_Metropolis" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_B-1Img" src="Content/Images/calendar.png" alt="v"></td>
+								</tr>
+							</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEditOutOfRWarn" class="dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis" style="opacity: 0;"><label>The date must be greater than or equal to 24 Aug 2024</label></div><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+								<div class="dxpc-mainDiv dxdd-cal dxpc-shadow">
+									<div class="dxpc-contentWrapper">
+										<div class="dxpc-content" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_PWC-1">
+											<table style="display:none;">
+												<tbody><tr>
+													<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_D" class="dxeCalendarDay_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DS" class="dxeCalendarSelected_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DH" class="dxeCalendarHover_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DA" class="dxeCalendarOtherMonth_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DO" class="dxeCalendarOutOfRange_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DDD" class="dxeCalendarDayDisabled_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DW" class="dxeCalendarWeekend_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DT" class="dxeCalendarToday_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_DD" class="dxeDisabled_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_FNI" class="dxeCalendarFastNavItem_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_FNIS" class="dxeCalendarFastNavItemSelected_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_FNIH" class="dxeCalendarFastNavItemHover_Metropolis"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_EC_FNIA" class="dxeCalendarFastNavItemOtherPeriod_Metropolis"></td>
+												</tr>
+											</tbody></table><table class="dxeCVC dxeCMMV dxeCalendar_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C">
+												<tbody><tr>
+													<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_v_0x0" style="vertical-align:Top;" class="view-visible"><table style="width:100%;border-collapse:collapse;">
+														<tbody><tr>
+															<td class="dxeCalendarHeader_Metropolis" style="border-top:0;"><table style="width:100%;border-collapse:collapse;">
+																<tbody><tr>
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PTPC_0x0" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PTPC_0x0Img" class="dxEditors_edtCalendarFNPrevPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Back"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PYC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PYC_0x0Img" class="dxEditors_edtCalendarPrevYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous year"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PMC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PMC_0x0Img" class="dxEditors_edtCalendarPrevMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous month"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_TC_0x0" class="dxe" style="width:100%;cursor:default;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_T_0x0" style="cursor:pointer;">August 2024</span></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NMC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NMC_0x0Img" class="dxEditors_edtCalendarNextMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next month" style="visibility:hidden;"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NYC_0x0" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NYC_0x0Img" class="dxEditors_edtCalendarNextYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next year" style="visibility:hidden;"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NTPC_0x0" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NTPC_0x0Img" class="dxEditors_edtCalendarFNNextPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Forward" style="visibility:hidden;"></td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0" class="dxMonthGridWithWeekNumbers" style="-webkit-user-select:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mt_0x0" style="width:100%;border-collapse:separate;">
+																<tbody><tr class="dx-ac">
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_0"></td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_1">Sun</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_2">Mon</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_3">Tue</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_4">Wed</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_5">Thu</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_6">Fri</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_7">Sat</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_8">31</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_7" savedcursor="[object Object]" style="cursor: pointer;">28</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_8" savedcursor="[object Object]" style="cursor: pointer;">29</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_9" savedcursor="[object Object]" style="cursor: pointer;">30</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_10" savedcursor="[object Object]" style="cursor: pointer;">31</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_11" savedcursor="[object Object]" style="cursor: pointer;">1</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_12" savedcursor="[object Object]" style="cursor: pointer;">2</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_13" savedcursor="[object Object]" style="cursor: pointer;">3</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_9">32</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_14" savedcursor="[object Object]" style="cursor: pointer;">4</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_15" savedcursor="[object Object]" style="cursor: pointer;">5</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_16" savedcursor="[object Object]" style="cursor: pointer;">6</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_17" savedcursor="[object Object]" style="cursor: pointer;">7</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_18" savedcursor="[object Object]" style="cursor: pointer;">8</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_19" savedcursor="[object Object]" style="cursor: pointer;">9</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_20" savedcursor="[object Object]" style="cursor: pointer;">10</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_10">33</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_21" savedcursor="[object Object]" style="cursor: pointer;">11</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_22" savedcursor="[object Object]" style="cursor: pointer;">12</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_23" savedcursor="[object Object]" style="cursor: pointer;">13</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_24" savedcursor="[object Object]" style="cursor: pointer;">14</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_25" savedcursor="[object Object]" style="cursor: pointer;">15</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_26" savedcursor="[object Object]" style="cursor: pointer;">16</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_27" savedcursor="[object Object]" style="cursor: pointer;">17</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_11">34</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_28" savedcursor="[object Object]" style="cursor: pointer;">18</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_29" savedcursor="[object Object]" style="cursor: pointer;">19</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_30" savedcursor="[object Object]" style="cursor: pointer;">20</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_31" savedcursor="[object Object]" style="cursor: pointer;">21</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_32" savedcursor="[object Object]" style="cursor: pointer;">22</td><td class="dxeCalendarDay_Metropolis dxeCalendarToday_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_33" savedcursor="[object Object]" style="cursor: pointer;">23</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_34" savedcursor="[object Object]" style="cursor: pointer;">24</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_12">35</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_35" savedcursor="[object Object]" style="cursor: pointer;">25</td><td class="dxeCalendarDay_Metropolis dxeCalendarSelected_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_36" savedcursor="[object Object]" style="cursor: pointer;">26</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_37" savedcursor="[object Object]" style="cursor: pointer;">27</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_38" savedcursor="[object Object]" style="cursor: pointer;">28</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_39" savedcursor="[object Object]" style="cursor: pointer;">29</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_40" savedcursor="[object Object]" style="cursor: pointer;">30</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_41" savedcursor="[object Object]" style="cursor: pointer;">31</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_0_13">36</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_42">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_43">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_44">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_45">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_46">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_47">&nbsp;</td><td class="dxeCalendarDay_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x0_48">&nbsp;</td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0" class="dxFastNavGrid" style="display:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yt_0x0" class="dxeCalendarFastNav_Metropolis" style="height:100%;width:100%;border-collapse:separate;">
+																<tbody><tr>
+																	<td class="dxeCalendarFastNavItemArea_Metropolis" style="height:100%;width:100%;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yt_0x0_n" style="height:100%;width:100%;border-collapse:separate;">
+																		<tbody><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_0">Jan</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_1">Feb</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_2">Mar</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_3">Apr</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_4">May</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_5">Jun</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_6">Jul</td><td class="dxeCalendarFastNavItem_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_7">Aug</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_8">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_9">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_10">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x0_11">&nbsp;</td>
+																		</tr>
+																	</tbody></table></td>
+																</tr>
+															</tbody></table></td>
+														</tr>
+													</tbody></table></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_v_0x1" style="vertical-align:Top;"><table style="width:100%;border-collapse:collapse;">
+														<tbody><tr>
+															<td class="dxeCalendarHeader_Metropolis" style="border-top:0;"><table style="width:100%;border-collapse:collapse;">
+																<tbody><tr>
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PTPC_0x1" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PTPC_0x1Img" class="dxEditors_edtCalendarFNPrevPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Back" style="visibility:hidden;"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PYC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PYC_0x1Img" class="dxEditors_edtCalendarPrevYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous year" style="visibility:hidden;"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PMC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_PMC_0x1Img" class="dxEditors_edtCalendarPrevMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Previous month" style="visibility:hidden;"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_TC_0x1" class="dxe" style="width:100%;cursor:default;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_T_0x1" style="cursor:pointer;">September 2024</span></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NMC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NMC_0x1Img" class="dxEditors_edtCalendarNextMonth_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next month"></td><td class="dxeCHS"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NYC_0x1" class="dxe"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NYC_0x1Img" class="dxEditors_edtCalendarNextYear_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Next year"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NTPC_0x1" class="dxe" style="display:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_NTPC_0x1Img" class="dxEditors_edtCalendarFNNextPeriod_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="Forward"></td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1" class="dxMonthGridWithWeekNumbers" style="-webkit-user-select:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mt_0x1" style="width:100%;border-collapse:separate;">
+																<tbody><tr class="dx-ac">
+																	<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_0"></td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_1">Sun</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_2">Mon</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_3">Tue</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_4">Wed</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_5">Thu</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_6">Fri</td><td class="dxeCalendarDayHeader_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_7">Sat</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_8">36</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_7" savedcursor="[object Object]" style="cursor: pointer;">1</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_8" savedcursor="[object Object]" style="cursor: pointer;">2</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_9" savedcursor="[object Object]" style="cursor: pointer;">3</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_10" savedcursor="[object Object]" style="cursor: pointer;">4</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_11" savedcursor="[object Object]" style="cursor: pointer;">5</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_12" savedcursor="[object Object]" style="cursor: pointer;">6</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_13" savedcursor="[object Object]" style="cursor: pointer;">7</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_9">37</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_14" savedcursor="[object Object]" style="cursor: pointer;">8</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_15" savedcursor="[object Object]" style="cursor: pointer;">9</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_16" savedcursor="[object Object]" style="cursor: pointer;">10</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_17" savedcursor="[object Object]" style="cursor: pointer;">11</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_18" savedcursor="[object Object]" style="cursor: pointer;">12</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_19" savedcursor="[object Object]" style="cursor: pointer;">13</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_20" savedcursor="[object Object]" style="cursor: pointer;">14</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_10">38</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_21" savedcursor="[object Object]" style="cursor: pointer;">15</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_22" savedcursor="[object Object]" style="cursor: pointer;">16</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_23" savedcursor="[object Object]" style="cursor: pointer;">17</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_24" savedcursor="[object Object]" style="cursor: pointer;">18</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_25" savedcursor="[object Object]" style="cursor: pointer;">19</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_26" savedcursor="[object Object]" style="cursor: pointer;">20</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_27" savedcursor="[object Object]" style="cursor: pointer;">21</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_11">39</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_28" savedcursor="[object Object]" style="cursor: pointer;">22</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_29" savedcursor="[object Object]" style="cursor: pointer;">23</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_30" savedcursor="[object Object]" style="cursor: pointer;">24</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_31" savedcursor="[object Object]" style="cursor: pointer;">25</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_32" savedcursor="[object Object]" style="cursor: pointer;">26</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_33" savedcursor="[object Object]" style="cursor: pointer;">27</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_34" savedcursor="[object Object]" style="cursor: pointer;">28</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_12">40</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_35" savedcursor="[object Object]" style="cursor: pointer;">29</td><td class="dxeCalendarDay_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_36" savedcursor="[object Object]" style="cursor: pointer;">30</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_37" savedcursor="[object Object]" style="cursor: pointer;">1</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_38" savedcursor="[object Object]" style="cursor: pointer;">2</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_39" savedcursor="[object Object]" style="cursor: pointer;">3</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_40" savedcursor="[object Object]" style="cursor: pointer;">4</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_41" savedcursor="[object Object]" style="cursor: pointer;">5</td>
+																</tr><tr>
+																	<td class="dxeCalendarWeekNumber_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_AUX_0_1_13">41</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_42" savedcursor="[object Object]" style="cursor: pointer;">6</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_43" savedcursor="[object Object]" style="cursor: pointer;">7</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_44" savedcursor="[object Object]" style="cursor: pointer;">8</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_45" savedcursor="[object Object]" style="cursor: pointer;">9</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_46" savedcursor="[object Object]" style="cursor: pointer;">10</td><td class="dxeCalendarDay_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_47" savedcursor="[object Object]" style="cursor: pointer;">11</td><td class="dxeCalendarDay_Metropolis dxeCalendarWeekend_Metropolis dxeCalendarOtherMonth_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_mc_0x1_48" savedcursor="[object Object]" style="cursor: pointer;">12</td>
+																</tr>
+															</tbody></table></td>
+														</tr><tr>
+															<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1" class="dxFastNavGrid" style="display:none;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yt_0x1" class="dxeCalendarFastNav_Metropolis" style="height:100%;width:100%;border-collapse:separate;">
+																<tbody><tr>
+																	<td class="dxeCalendarFastNavItemArea_Metropolis" style="height:100%;width:100%;"><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yt_0x1_n" style="height:100%;width:100%;border-collapse:separate;">
+																		<tbody><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_0">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_1">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_2">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_3">&nbsp;</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_4">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_5">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_6">&nbsp;</td><td class="dxeCalendarFastNavItem_Metropolis dxeEmptyDC" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_7">&nbsp;</td>
+																		</tr><tr>
+																			<td class="dxeCalendarFastNavItem_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_8">Sep</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_9">Oct</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_10">Nov</td><td class="dxeCalendarFastNavItem_Metropolis dxeCalendarFastNavItemOtherPeriod_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_yc_0x1_11">Dec</td>
+																		</tr>
+																	</tbody></table></td>
+																</tr>
+															</tbody></table></td>
+														</tr>
+													</tbody></table></td>
+												</tr><tr>
+													<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_F" class="dxeCalendarFooter_Metropolis" colspan="2"><button id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_BT" class="dxeCalendarButton_Metropolis" type="button">Today</button><button id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C_BC" class="dxeCalendarButton_Metropolis" type="button">Clear</button></td>
+												</tr>
+											</tbody></table><script id="dxss_1886941092" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C',[[['dxeCalendarButtonHover_Metropolis'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C',[[['dxeCalendarButtonPressed_Metropolis'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C',[[['dxeDisabled_Metropolis'],[''],['']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['BT','BC','BO','BCN','FNP_BO','FNP_BC']],[[''],[''],['PYC_0x0','PMC_0x0','NMC_0x0','NYC_0x0','PYC_0x1','PMC_0x1','NMC_0x1','NYC_0x1'],,[[{'spriteCssClass':'dxEditors_edtCalendarPrevYearDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarPrevMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextYearDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarPrevYearDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarPrevMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextMonthDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtCalendarNextYearDisabled_Metropolis'}]],['Img']]]);
+ASPx.createControl(ASPxClientCalendar,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD_C','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckOutDateEdit$DDD$C','scStates':2,'scPostfix':'Metropolis','serverCurrentDate':new Date(2024,7,23,0,0,0,0),'visibleDate':new Date(2024,7,26,0,0,0,0),'columns':2,'switchToSingleMonthAtWindowInnerWidth':575,'fastNavRollbackTexts':['Back To Days', 'Back To Months', 'Back To Years'],'isDateEditCalendar':true},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}],'selection':[new Date(2024,7,26,0,0,0,0)]});
+
+//-->
+</script>
+										</div>
+									</div>
+								</div>
+							</div><script id="dxss_1216268277" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckOutDateEdit$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit', e); }});
+
+//-->
+</script></td>
+						</tr>
+					</tbody></table><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_LP" class="dxeLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+						<tbody><tr>
+							<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit_TL">Loading…</span></td>
+						</tr>
+					</tbody></table><script id="dxss_1601991532" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',[[['dxeButtonEditButtonHover_Metropolis'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',[[['B-100']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',[[['dxeButtonEditButtonPressed_Metropolis'],[''],['B-1']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',[[['B-100']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',[[['dxeDisabled_Metropolis'],[''],['','I']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['B-1'],,[[{'spriteCssClass':'dxIcon_scheduling_today_16x16gray_disabled'}]],['Img']]]);
+ASPx.RemoveDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',[[['B-100'],]]);
+ASPx.createControl(ASPxClientDateEdit,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit','CheckOutDateEdit',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckOutDateEdit',arg,ASPx.Callback,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckOutDateEdit',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CheckOutDateEdit','scStates':2,'scPostfix':'Metropolis','stateObject':{'rawValue':'1724694969394.41','useMinDateInsteadOfNull':false},'validationGroup':'dateRange','customValidationEnabled':true,'isValid':true,'errorText':'Invalid value','validationPatterns':[new ASPx.RequiredFieldValidationPattern('Check out date is required')],'validateOnLeave':false,'setFocusOnError':true,'isErrorFrameRequired':true,'display':'Dynamic','errorDisplayMode':'n','controlCellStyles':{'cssClass':'dxeErrorFrameWithoutError_Metropolis dxeErrorFrameSys dxeControlsCell_Metropolis','style':'width:100%;'},'autoCompleteAttribute':{'name':'autocomplete','value':'off'},'outOfRangeWarningClassName':'dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis','outOfRangeWarningMessages':['The date must be in the range {0}...{1}', 'The date must be greater than or equal to {0}', 'The date must be less than or equal to {0}'],'date':new Date(2024,7,26,17,56,9,394),'dateFormatter':ASPx.DateFormatter.Create('d MMM yyyy'),'startDateEditName':'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CheckInDateEdit','minRange':1,'maxRange':28,'invalidDateRangeErrorText':'The date range must be from 1 to 28 days'},null,null,{'decorationStyles':[{'key':'I','className':'dxeInvalid_Metropolis','cssText':''},{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                    </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_5" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys" colspan="3" data-left="177.33334350585938"><div class="dxflNestedControlCell_Metropolis dxflCLTSys dxflItemSys dxflCustomItemSys dxflItem_Metropolis item">
+				
+                        <table class="dxvsValidationSummary_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_DateRangeValidationSummary" style="display: none;">
+					<tbody><tr>
+						<td class="dxvsRC_Metropolis"><table class="dxvsT_Metropolis" style="width:100%;border-collapse:separate;">
+							<tbody>
+						</tbody></table></td>
+					</tr>
+				</tbody></table><script id="dxss_118263634" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientValidationSummary,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_DateRangeValidationSummary','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$DateRangeValidationSummary','validationGroup':'dateRange','sampleErrorContainer':'<tr class="dxvsE_Metropolis"> <td class="dxvsETC_Metropolis"><a class="dxvsHL_Metropolis" href="javascript:;">&nbsp;</a></td></tr>'});
+
+//-->
+</script>
+                    
+			</div></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_6" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys" style="width:50%;" data-left="177.33334350585938"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item" style="width:100%;border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis item-caption" for="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_I">Rooms</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis" style="width:100%;">
+                        <table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_LP" class="dxeLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+						<tbody><tr>
+							<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_TL">Loading…</span></td>
+						</tr>
+					</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_LD" class="dxeLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+					</div><table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox" style="height:30px;width:100%;">
+						<tbody><tr>
+							<td style="display:none;"><input id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_VI" name="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_VI" type="hidden" value="1"></td><td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_I" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$RoomsComboBox" onchange="ASPx.ETextChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox')" value="1" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_B-1" class="dxeButton dxeButtonEditButton_Metropolis" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_B-1Img" class="dxEditors_edtDropDown_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="v"></td>
+						</tr>
+					</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_PW-1" class="dxpcDropDown_Metropolis dxpclW dxpc-ddSys dxdd-root" style="z-index:10000;display:none;visibility:hidden;">
+						<div class="dxpc-mainDiv dxdd-list dxpc-shadow">
+							<div class="dxpc-contentWrapper">
+								<div class="dxpc-content" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_PWC-1">
+									<table class="dxeListBox_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L" style="border-collapse:separate;">
+										<tbody><tr>
+											<td style="vertical-align:Top;"><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L_D" class="dxlbd" style="width:100%;overflow-x:hidden;overflow-y:auto;"><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_LLBVSTC" style="overflow: hidden; width: 100%; height: 0px;"><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_LVirtualScrollTopSpacer"></div>
+												<input id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L_VI" type="hidden" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$RoomsComboBox$DDD$L" value="1"><table style="border-collapse:separate;visibility:hidden!important;display:none!important;">
+													<tbody><tr id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L_LBI-1" class="dxeListBoxItemRow_Metropolis">
+														<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L_LBI-1T0" class="dxeListBoxItem_Metropolis">&nbsp;</td>
+													</tr>
+												</tbody></table><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L_LBT" style="width:100%;border-collapse:separate;" class="">
+
+												</table>
+											</div></div></td>
+										</tr>
+									</tbody></table><script id="dxss_547886443" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientListBox,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD_L','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$RoomsComboBox$DDD$L','scStates':6,'scPostfix':'Metropolis','stateObject':{'CustomCallback':''},'savedSelectedIndex':0,'isSyncEnabled':false,'isComboBoxList':true,'hasSampleItem':true,'hoverClasses':['dxeListBoxItemHover_Metropolis'],'selectedClasses':['dxeListBoxItemSelected_Metropolis'],'disabledClasses':['dxeDisabled_Metropolis'],'itemsInfo':[{'value':'1','text':'1'},{'value':'2','text':'2'},{'value':'3','text':'3'},{'value':'4','text':'4'},{'value':'5','text':'5'}]},{'SelectedIndexChanged':function (s, e) { ASPx.CBLBSelectedIndexChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox', e); },'ItemClick':function (s, e) { ASPx.CBLBItemMouseUp('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox', e); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+								</div>
+							</div>
+						</div>
+					</div><script id="dxss_2145323813" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox_DDD','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$RoomsComboBox$DDD','adjustInnerControlsSizeOnShow':false,'popupAnimationType':'slide','closeAction':'CloseButton','popupHorizontalAlign':'LeftSides','popupVerticalAlign':'Below','isPopupPositionCorrectionOn':false},{'Shown':function (s, e) { ASPx.DDBPCShown('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox', e); }});
+
+//-->
+</script><script id="dxss_614995263" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',[[['dxeButtonEditButtonHover_Metropolis'],[''],['B-1']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',[[['B-100']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',[[['dxeButtonEditButtonPressed_Metropolis'],[''],['B-1']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',[[['B-100']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',[[['dxeDisabled_Metropolis'],[''],['','I']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['B-1'],,[[{'spriteCssClass':'dxEditors_edtDropDownDisabled_Metropolis'}]],['Img']]]);
+ASPx.RemoveDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',[[['B-100'],]]);
+ASPx.createControl(ASPxClientComboBox,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox','RoomsComboBox',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$RoomsComboBox',arg,ASPx.Callback,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_RoomsComboBox',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$RoomsComboBox','scStates':2,'scPostfix':'Metropolis','validationGroup':'search','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'ddmInput':true,'lastSuccessValue':'1','islastSuccessValueInit':true},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                    </td>
+				</tr>
+			</tbody></table></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_7" class="dxflGroupCell_Metropolis" style="width:25%;" data-left="367.3333435058594"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item" style="width:100%;border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis item-caption" for="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit_I">Adults</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis" style="width:100%;">
+                        <script id="dxss_1564181351" data-executed="true">
+<!--
+ASPx.NumberDecimalSeparator = '.';
+
+
+//-->
+</script><table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit" style="height:30px;width:100%;">
+						<tbody><tr>
+							<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit_I" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$AdultsSpinEdit" onchange="ASPx.ETextChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit')" value="1" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit_B-1" class="dxeButton dxeButtonEditButton_Metropolis dxeSpinLargeDecButton_Metropolis" onclick="ASPx.BEClick('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',-1)" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit_B-1Img" class="dxEditors_edtSpinEditLargeDecImage_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="-"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit_B-4" class="dxeButton dxeButtonEditButton_Metropolis dxeSpinLargeIncButton_Metropolis" onclick="ASPx.BEClick('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',-4)" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit_B-4Img" class="dxEditors_edtSpinEditLargeIncImage_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="+"></td>
+						</tr>
+					</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEditOutOfRWarn" class="dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis" style="opacity: 0;"><label>The number must be in the range 1...10</label></div><script id="dxss_24712925" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',[[['dxeButtonEditButtonHover_Metropolis dxeSpinLargeDecButtonHover_Metropolis'],[''],['B-1']],[['dxeButtonEditButtonHover_Metropolis dxeSpinLargeIncButtonHover_Metropolis'],[''],['B-4']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',[[['B-100']],[['B-2']],[['B-3']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',[[['dxeButtonEditButtonPressed_Metropolis dxeSpinLargeDecButtonPressed_Metropolis'],[''],['B-1']],[['dxeButtonEditButtonPressed_Metropolis dxeSpinLargeIncButtonPressed_Metropolis'],[''],['B-4']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',[[['B-100']],[['B-2']],[['B-3']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',[[['dxeDisabled_Metropolis'],[''],['','I']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['B-1','B-4'],,[[{'spriteCssClass':'dxEditors_edtSpinEditLargeDecImageDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtSpinEditLargeIncImageDisabled_Metropolis'}]],['Img']]]);
+ASPx.RemoveDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit',[[['B-100','B-2','B-3'],]]);
+ASPx.createControl(ASPxClientSpinEdit,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_AdultsSpinEdit','AdultsSpinEdit',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$AdultsSpinEdit','scStates':2,'scPostfix':'Metropolis','heightCorrectionRequired':true,'validationGroup':'search','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'outOfRangeWarningClassName':'dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis','outOfRangeWarningMessages':['The number must be in the range {0}...{1}', 'The number must be greater than or equal to {0}', 'The number must be less than or equal to {0}'],'allowNull':false,'number':1,'largeInc':1,'minValue':1,'maxValue':10,'numberType':'i'},{'NumberChanged':function(s, e) { SetChildMax(); }},null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                    </td>
+				</tr>
+			</tbody></table></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_8" class="dxflGroupCell_Metropolis dxflLastChildInRowSys" style="width:25%;" data-left="462.3333435058594"><table class="dxflCLTSys dxflItemSys dxflTextEditItemSys dxflItem_Metropolis item" style="width:100%;border-collapse:separate;">
+				<tbody><tr>
+					<td class="dxflHALSys dxflVATSys dxflCaptionCell_Metropolis dxflCaptionCellSys"><label class="dxflCaption_Metropolis item-caption" for="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit_I">Children</label></td>
+				</tr><tr>
+					<td class="dxflNestedControlCell_Metropolis" style="width:100%;">
+                        <table class="dxeButtonEditSys dxeButtonEdit_Metropolis editor" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit" style="height:30px;width:100%;">
+						<tbody><tr>
+							<td class="dxic" style="width:100%;"><input class="dxeEditArea_Metropolis dxeEditAreaSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit_I" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$ChildrenSpinEdit" onchange="ASPx.ETextChanged('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit')" value="0" type="text" autocomplete="off"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit_B-1" class="dxeButton dxeButtonEditButton_Metropolis dxeSpinLargeDecButton_Metropolis" onclick="ASPx.BEClick('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',-1)" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit_B-1Img" class="dxEditors_edtSpinEditLargeDecImage_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="-"></td><td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit_B-4" class="dxeButton dxeButtonEditButton_Metropolis dxeSpinLargeIncButton_Metropolis" onclick="ASPx.BEClick('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',-4)" style="-webkit-user-select:none;"><img id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit_B-4Img" class="dxEditors_edtSpinEditLargeIncImage_Metropolis" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="+"></td>
+						</tr>
+					</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEditOutOfRWarn" class="dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis" style="opacity: 0;"><label>The number must be in the range 0...10</label></div><script id="dxss_435143693" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',[[['dxeButtonEditButtonHover_Metropolis dxeSpinLargeDecButtonHover_Metropolis'],[''],['B-1']],[['dxeButtonEditButtonHover_Metropolis dxeSpinLargeIncButtonHover_Metropolis'],[''],['B-4']]]);
+ASPx.RemoveHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',[[['B-100']],[['B-2']],[['B-3']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',[[['dxeButtonEditButtonPressed_Metropolis dxeSpinLargeDecButtonPressed_Metropolis'],[''],['B-1']],[['dxeButtonEditButtonPressed_Metropolis dxeSpinLargeIncButtonPressed_Metropolis'],[''],['B-4']]]);
+ASPx.RemovePressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',[[['B-100']],[['B-2']],[['B-3']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',[[['dxeDisabled_Metropolis'],[''],['','I']],[['dxeDisabled_Metropolis dxeButtonDisabled_Metropolis'],[''],['B-1','B-4'],,[[{'spriteCssClass':'dxEditors_edtSpinEditLargeDecImageDisabled_Metropolis'}],[{'spriteCssClass':'dxEditors_edtSpinEditLargeIncImageDisabled_Metropolis'}]],['Img']]]);
+ASPx.RemoveDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit',[[['B-100','B-2','B-3'],]]);
+ASPx.createControl(ASPxClientSpinEdit,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_ChildrenSpinEdit','ChildrenSpinEdit',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$ChildrenSpinEdit','scStates':2,'scPostfix':'Metropolis','heightCorrectionRequired':true,'validationGroup':'search','autoCompleteAttribute':{'name':'autocomplete','value':'off'},'outOfRangeWarningClassName':'dxeOutOfRWarn_Metropolis dxeOutOfRWarnRight_Metropolis','outOfRangeWarningMessages':['The number must be in the range {0}...{1}', 'The number must be greater than or equal to {0}', 'The number must be less than or equal to {0}'],'allowNull':false,'number':0,'largeInc':1,'maxValue':10,'numberType':'i'},null,null,{'decorationStyles':[{'key':'F','className':'dxeFocused_Metropolis','cssText':''}]});
+
+//-->
+</script>
+                    </td>
+				</tr>
+			</tbody></table></td>
+		</tr><tr>
+			<td id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_9" class="dxflGroupCell_Metropolis dxflFirstChildInRowSys dxflLastChildInRowSys dxflLastChildSys dxflChildInLastRowSys" colspan="3" data-left="177.33334350585938"><div class="dxflNestedControlCell_Metropolis dxflCLTSys dxflItemSys dxflButtonItemSys dxflItem_Metropolis item">
+				
+                        <div class="dxpnlControl_Metropolis" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CallbackPanel">
+					&nbsp;
+				</div><table id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CallbackPanel_LP" class="dxpnlLoadingPanelWithContent_Metropolis dxlpLoadingPanelWithContent_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+					<tbody><tr>
+						<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CallbackPanel_TL">Loading…</span></td>
+					</tr>
+				</tbody></table><div id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CallbackPanel_LD" class="dxpnlLoadingDivWithContent_Metropolis dxlpLoadingDivWithContent_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+				</div><script id="dxss_1000784573" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientCallbackPanel,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CallbackPanel','CallbackPanel',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CallbackPanel',arg,ASPx.Callback,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_CallbackPanel',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$CallbackPanel','hideContentOnCallback':false});
+
+//-->
+</script>
+                        <div class="dxbButton_Metropolis search-button dxbButtonSys dxbTSys" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton" style="border-style:None;width:100%;-webkit-user-select:none;">
+					<div class="dxb" id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton_CD">
+						<div class="dxb-hbc">
+							<input id="MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton_I" class="dxb-hb" value="SEARCH" type="submit" name="ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$SearchButton">
+						</div><span class="dx-vam">SEARCH</span>
+					</div>
+				</div><script id="dxss_1892066310" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton',[[['dxbButtonHover_Metropolis search-button-hover'],[''],[''],['','TC']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout_SearchButton','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout$SearchButton'},{'Click':ValidateAndPerformSearch});
+
+//-->
+</script>
+                    
+			</div></td>
+		</tr>
+	</tbody></table>
+</div><script id="dxss_1391236689" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientFormLayout,'MainContentPlaceHolder_SearchPanel_SearchPanelLayout','',{'uniqueID':'ctl00$MainContentPlaceHolder$SearchPanel$SearchPanelLayout','showItemCaptionColon':false});
+
+//-->
+</script>
+</div>
+
+            <div class="text">
+                <h1>Hotel Booking</h1>
+                <h2>powered by DevExpress ASP.NET Controls</h2>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="widgets">
+        <div class="content-column">
+            <div class="dxdzControlHor" id="MainContentPlaceHolder_WidgetsDockZone" style="height: 148px; padding-top: 30px; width: 917px;">
+	<div class="dxdz-pnlPlcHolder" style="display: none;">
+
+	</div>
+<div id="MainContentPlaceHolder_dpWidget2_PW-1" class="dxdpLite_Metropolis drag dxpclW" style="width: 249px; user-select: none; z-index: 12000; visibility: visible; display: block; position: static; height: 148px; left: 0px; top: 0px; float: left;">
+	<div class="dxpc-mainDiv widget">
+		<div class="dxpc-contentWrapper" style="display: block; height: 146.667px;">
+			<div class="dxpc-content" id="MainContentPlaceHolder_dpWidget2_PWC-1" style="display: block; visibility: visible; overflow: auto; height: 147px; width: 248px;">
+				
+                        <div class="closeImageContainer">
+                            <img class="closeImage dxeImage_Metropolis " id="MainContentPlaceHolder_dpWidget2_dpWidget2CloseImage" onclick="return ASPx.SEClick('MainContentPlaceHolder_dpWidget2_dpWidget2CloseImage', event)" src="Content/Images/offer-close-ico.png" alt=""><script id="dxss_1631513336" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientImage,'MainContentPlaceHolder_dpWidget2_dpWidget2CloseImage','',{'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget2$dpWidget2CloseImage','scStates':4,'scPostfix':'Metropolis'},{'Click':function(){ closeWidget(2); }});
+
+//-->
+</script>
+                        </div>
+                        <div class="imageContainer">
+                            <img class="image dxeImage_Metropolis " id="MainContentPlaceHolder_dpWidget2_dpWidget2Image" onclick="return ASPx.SEClick('MainContentPlaceHolder_dpWidget2_dpWidget2Image', event)" src="Content/Images/wid2.png" alt=""><script id="dxss_1748542966" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientImage,'MainContentPlaceHolder_dpWidget2_dpWidget2Image','',{'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget2$dpWidget2Image','scStates':4,'scPostfix':'Metropolis'},{'Click':function(s, e){ pcWidgetInfo.Show(); }});
+
+//-->
+</script>
+                        </div>
+                    
+			</div>
+		</div>
+	</div>
+</div><div id="MainContentPlaceHolder_dpWidget1_PW-1" class="dxdpLite_Metropolis drag dxpclW" style="width: 399px; user-select: none; z-index: 12002; visibility: visible; display: block; position: static; height: 148px; left: 0px; top: 0px; float: left; margin-left: 10px;">
+	<div class="dxpc-mainDiv widget">
+		<div class="dxpc-contentWrapper" style="display: block; height: 146.667px;">
+			<div class="dxpc-content" id="MainContentPlaceHolder_dpWidget1_PWC-1" style="display: block; visibility: visible; overflow: auto; height: 147px; width: 398px;">
+				
+                        <div class="closeImageContainer">
+                            <img class="closeImage dxeImage_Metropolis " id="MainContentPlaceHolder_dpWidget1_dpWidget1CloseImage" onclick="return ASPx.SEClick('MainContentPlaceHolder_dpWidget1_dpWidget1CloseImage', event)" src="Content/Images/offer-close-ico.png" alt=""><script id="dxss_1200187079" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientImage,'MainContentPlaceHolder_dpWidget1_dpWidget1CloseImage','',{'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget1$dpWidget1CloseImage','scStates':4,'scPostfix':'Metropolis'},{'Click':function(){ closeWidget(1); }});
+
+//-->
+</script>
+                        </div>
+                        <div class="imageContainer">
+                            <img class="image dxeImage_Metropolis " id="MainContentPlaceHolder_dpWidget1_dpWidget1Image" onclick="return ASPx.SEClick('MainContentPlaceHolder_dpWidget1_dpWidget1Image', event)" src="Content/Images/wid1.png" alt=""><script id="dxss_2066358730" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientImage,'MainContentPlaceHolder_dpWidget1_dpWidget1Image','',{'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget1$dpWidget1Image','scStates':4,'scPostfix':'Metropolis'},{'Click':function(s, e){ pcWidgetInfo.Show(); }});
+
+//-->
+</script>
+                        </div>
+                    
+			</div>
+		</div>
+	</div>
+</div><div id="MainContentPlaceHolder_dpWidget3_PW-1" class="dxdpLite_Metropolis drag dxpclW" style="height: 148px; width: 249px; user-select: none; z-index: 12004; visibility: visible; display: block; position: static; left: 0px; top: 0px; float: left; margin-left: 10px;">
+	<div class="dxpc-mainDiv widget">
+		<div class="dxpc-contentWrapper" style="display: block; height: 146.667px;">
+			<div class="dxpc-content" id="MainContentPlaceHolder_dpWidget3_PWC-1" style="display: block; visibility: visible; overflow: auto; height: 147px; width: 248px;">
+				
+                        <div class="closeImageContainer">
+                            <img class="closeImage dxeImage_Metropolis " id="MainContentPlaceHolder_dpWidget3_dpWidget3CloseImage" onclick="return ASPx.SEClick('MainContentPlaceHolder_dpWidget3_dpWidget3CloseImage', event)" src="Content/Images/offer-close-ico.png" alt=""><script id="dxss_1515678153" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientImage,'MainContentPlaceHolder_dpWidget3_dpWidget3CloseImage','',{'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget3$dpWidget3CloseImage','scStates':4,'scPostfix':'Metropolis'},{'Click':function(){ closeWidget(3); }});
+
+//-->
+</script>
+                        </div>
+                        <div class="imageContainer">
+                            <img class="image dxeImage_Metropolis " id="MainContentPlaceHolder_dpWidget3_dpWidget3Image" onclick="return ASPx.SEClick('MainContentPlaceHolder_dpWidget3_dpWidget3Image', event)" src="Content/Images/wid3.png" alt=""><script id="dxss_1458801994" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientImage,'MainContentPlaceHolder_dpWidget3_dpWidget3Image','',{'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget3$dpWidget3Image','scStates':4,'scPostfix':'Metropolis'},{'Click':function(s, e){ pcWidgetInfo.Show(); }});
+
+//-->
+</script>
+                        </div>
+                    
+			</div>
+		</div>
+	</div>
+</div></div><script id="dxss_2086618968" data-executed="true">
+<!--
+ASPx.createControl(ASPxClientDockZone,'MainContentPlaceHolder_WidgetsDockZone','dockZone',{'uniqueID':'ctl00$MainContentPlaceHolder$WidgetsDockZone','zoneUID':'dz','initialHeight':148,'panelSpacing':10});
+
+//-->
+</script>
+            <table id="MainContentPlaceHolder_dpWidget2_LP" class="dxdpLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_dpWidget2_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="MainContentPlaceHolder_dpWidget2_LD" class="dxdpLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_1908794480" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_dpWidget2',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientDockPanel,'MainContentPlaceHolder_dpWidget2','dpw2',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$dpWidget2',arg,ASPx.Callback,'MainContentPlaceHolder_dpWidget2',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget2','popupAnimationType':'slide','closeAction':'CloseButton','isPopupPositionCorrectionOn':false,'isWindowDragging':true,'allowDragging':true,'showOnPageLoad':true,'panelUID':'dpWidget2','dockState':['dz',0,'',0,0,0],'mode':'DockedOnly'});
+
+//-->
+</script>
+            <table id="MainContentPlaceHolder_dpWidget1_LP" class="dxdpLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_dpWidget1_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="MainContentPlaceHolder_dpWidget1_LD" class="dxdpLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_345811985" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_dpWidget1',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientDockPanel,'MainContentPlaceHolder_dpWidget1','dpw1',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$dpWidget1',arg,ASPx.Callback,'MainContentPlaceHolder_dpWidget1',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget1','popupAnimationType':'slide','closeAction':'CloseButton','isPopupPositionCorrectionOn':false,'isWindowDragging':true,'allowDragging':true,'showOnPageLoad':true,'panelUID':'dpWidget1','dockState':['dz',0,'',0,0,0],'mode':'DockedOnly'});
+
+//-->
+</script>
+            <table id="MainContentPlaceHolder_dpWidget3_LP" class="dxdpLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_dpWidget3_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="MainContentPlaceHolder_dpWidget3_LD" class="dxdpLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_403925265" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_dpWidget3',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientDockPanel,'MainContentPlaceHolder_dpWidget3','dpw3',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$dpWidget3',arg,ASPx.Callback,'MainContentPlaceHolder_dpWidget3',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$dpWidget3','popupAnimationType':'slide','closeAction':'CloseButton','isPopupPositionCorrectionOn':false,'isWindowDragging':true,'allowDragging':true,'width':230,'widthFromServer':true,'height':148,'showOnPageLoad':true,'panelUID':'dpWidget3','dockState':['dz',0,'',0,0,0],'mode':'DockedOnly','widthFixed':true});
+
+//-->
+</script>
+        </div>
+    </div>
+    <div class="index-offers content-column">
+        <div class="title">
+            SPECIAL OFFERS
+        </div>
+        <div class="imageSlider">
+            <div class="dxisControl_Metropolis" id="MainContentPlaceHolder_SpecialOffersImageSlider" style="height: 505px; width: 920px;" tabindex="0">
+
+<div class="dxis-passePartout" style="width: 920px; height: 440px;"><div class="dxis-imageArea" style="z-index: 0; top: 0px; width: 920px; height: 440px;"><img src="Content/Images/Cities/Athens.jpg" alt="" class="dxis-overlayElement"><div class="dxis-item" style="width: 920px; height: 440px; opacity: 1; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Greece Majesty</div><div class="city">Athens, Greece</div><div class="price">$214</div></div><img src="Content/Images/Cities/Athens.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div><div class="dxis-item" style="width: 920px; height: 440px; display: none; opacity: 0; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Hotel Barcelona Universal</div><div class="city">Barcelona, Spain</div><div class="price">$136</div></div><img src="Content/Images/Cities/Barcelona.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div><div class="dxis-item" style="width: 920px; height: 440px; display: none; opacity: 0; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Das Hotel</div><div class="city">Berlin, Germany</div><div class="price">$155</div></div><img src="Content/Images/Cities/Berlin.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div><div class="dxis-item" style="width: 920px; height: 440px; display: none; opacity: 0; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Sand Castle</div><div class="city">Cairo, Egypt</div><div class="price">$215</div></div><img src="Content/Images/Cities/Cairo.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div><div class="dxis-item" style="width: 920px; height: 440px; display: none; opacity: 0; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Hotel LA</div><div class="city">Los Angeles, USA</div><div class="price">$215</div></div><img src="Content/Images/Cities/LA.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div><div class="dxis-item" style="width: 920px; height: 440px; display: none; opacity: 0; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Posh House</div><div class="city">London, England</div><div class="price">$355</div></div><img src="Content/Images/Cities/London.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div><div class="dxis-item" style="width: 920px; height: 440px; display: none; opacity: 0; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dxis-itemTextArea dx-wbv" style="z-index: 2;"><div class="hotel">Hotel Profit</div><div class="city">Moscow, Russia</div><div class="price">$143</div></div><img src="Content/Images/Cities/Moscow.jpg" alt="" style="margin-top: 0px; margin-left: 0px;" width="920" height="440"></div></div><div id="MainContentPlaceHolder_SpecialOffersImageSlider_ia_nbwb" class="dxis-prevBtnHorWrapper dxis-prevBtnHorWrapperDisabled" style="opacity: 0;"><div id="MainContentPlaceHolder_SpecialOffersImageSlider_nbb" class="dxWeb_isPrevBtnHor_Metropolis dxis-prevBtnHor dxis-prevBtnHorDisabled dxWeb_isPrevBtnHorDisabled_Metropolis" saveddisabledstateitemsrc="[object Object]" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" saveddisabledstateitemclassname="dxWeb_isPrevBtnHor_Metropolis dxis-prevBtnHor dxis-prevBtnHorDisabled">
+
+</div></div><div id="MainContentPlaceHolder_SpecialOffersImageSlider_ia_nbwf" class="dxis-nextBtnHorWrapper" style="opacity: 0;"><div id="MainContentPlaceHolder_SpecialOffersImageSlider_nbf" class="dxWeb_isNextBtnHor_Metropolis dxis-nextBtnHor">
+
+</div></div></div><div class="dxis-nbBottom" style="width: 920px; height: 60px;"><div class="dxis-nbSlidePanelWrapper" style="width: 920px; height: 60px;"><div class="dxis-nbSlidePanel" style="width: 1230px; height: 60px; transform: none;"><div class="dxis-nbSelectedItem" style="width: 86px; height: 56px; transform: none;"><div style="width: 82px; height: 52px;"></div></div><div class="dxis-nbItem dxis-selected" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_0" style="width: 90px; height: 60px; left: 0px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_1" style="width: 90px; height: 60px; left: 95px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_2" style="width: 90px; height: 60px; left: 190px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_3" style="width: 90px; height: 60px; left: 285px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_4" style="width: 90px; height: 60px; left: 380px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_5" style="width: 90px; height: 60px; left: 475px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_6" style="width: 90px; height: 60px; left: 570px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_7" style="width: 90px; height: 60px; left: 665px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_8" style="width: 90px; height: 60px; left: 760px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_9" style="width: 90px; height: 60px; left: 855px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_10" style="width: 90px; height: 60px; left: 950px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_11" style="width: 90px; height: 60px; left: 1045px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div><div class="dxis-nbItem" id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_12" style="width: 90px; height: 60px; left: 1140px; background-image: url(&quot;/RWA/DXHotels/DXR.axd?r=1_87-L81it&quot;);"><div class="dx-is-loading" style="left: 0px; top: 30px; display: none;"></div><div class="dxis-nbHoverItem" style="width: 86px; height: 56px;"><div style="width: 82px; height: 52px;"></div></div><canvas width="90" height="60"></canvas></div></div></div><div id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_nbwb" class="dxis-prevBtnHorWrapper dxis-prevBtnHorWrapperDisabled" style="opacity: 0;"><div id="MainContentPlaceHolder_SpecialOffersImageSlider_ntbb" class="dxWeb_isPrevPageBtnHor_Metropolis dxis-prevPageBtnHor dxis-prevPageBtnHorDisabled dxWeb_isPrevPageBtnHorDisabled_Metropolis" saveddisabledstateitemsrc="[object Object]" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" saveddisabledstateitemclassname="dxWeb_isPrevPageBtnHor_Metropolis dxis-prevPageBtnHor dxis-prevPageBtnHorDisabled">
+
+</div></div><div id="MainContentPlaceHolder_SpecialOffersImageSlider_nb_nbwf" class="dxis-nextBtnHorWrapper" style="opacity: 0;"><div id="MainContentPlaceHolder_SpecialOffersImageSlider_ntbf" class="dxWeb_isNextPageBtnHor_Metropolis dxis-nextPageBtnHor">
+
+</div></div></div></div><script id="dxss_1646089014" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_SpecialOffersImageSlider',[[['dxis-prevBtnHorHover'],[''],['nbb'],,[[{'spriteCssClass':'dxWeb_isPrevBtnHorHover_Metropolis'}]],['']],[['dxis-nextBtnHorHover'],[''],['nbf'],,[[{'spriteCssClass':'dxWeb_isNextBtnHorHover_Metropolis'}]],['']],[['dxis-prevPageBtnHorHover'],[''],['ntbb'],,[[{'spriteCssClass':'dxWeb_isPrevPageBtnHorHover_Metropolis'}]],['']],[['dxis-nextPageBtnHorHover'],[''],['ntbf'],,[[{'spriteCssClass':'dxWeb_isNextPageBtnHorHover_Metropolis'}]],['']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_SpecialOffersImageSlider',[[['dxis-prevBtnHorPressed'],[''],['nbb'],,[[{'spriteCssClass':'dxWeb_isPrevBtnHorPressed_Metropolis'}]],['']],[['dxis-nextBtnHorPressed'],[''],['nbf'],,[[{'spriteCssClass':'dxWeb_isNextBtnHorPressed_Metropolis'}]],['']],[['dxis-prevPageBtnHorPressed'],[''],['ntbb'],,[[{'spriteCssClass':'dxWeb_isPrevPageBtnHorPressed_Metropolis'}]],['']],[['dxis-nextPageBtnHorPressed'],[''],['ntbf'],,[[{'spriteCssClass':'dxWeb_isNextPageBtnHorPressed_Metropolis'}]],['']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_SpecialOffersImageSlider',[[['dxis-prevBtnHorDisabled'],[''],['nbb'],,[[{'spriteCssClass':'dxWeb_isPrevBtnHorDisabled_Metropolis'}]],['']],[['dxis-nextBtnHorDisabled'],[''],['nbf'],,[[{'spriteCssClass':'dxWeb_isNextBtnHorDisabled_Metropolis'}]],['']],[['dxis-prevPageBtnHorDisabled'],[''],['ntbb'],,[[{'spriteCssClass':'dxWeb_isPrevPageBtnHorDisabled_Metropolis'}]],['']],[['dxis-nextPageBtnHorDisabled'],[''],['ntbf'],,[[{'spriteCssClass':'dxWeb_isNextPageBtnHorDisabled_Metropolis'}]],['']]]);
+ASPx.createControl(ASPxClientImageSlider,'MainContentPlaceHolder_SpecialOffersImageSlider','',{'encodeHtml':false,'uniqueID':'ctl00$MainContentPlaceHolder$SpecialOffersImageSlider','items':{'0':{'s':'Content/Images/Cities/Athens.jpg','t':'<div class=\'hotel\'>Greece Majesty</div><div class=\'city\'>Athens, Greece</div><div class=\'price\'>$214</div>'},'1':{'s':'Content/Images/Cities/Barcelona.jpg','t':'<div class=\'hotel\'>Hotel Barcelona Universal</div><div  class=\'city\'>Barcelona, Spain</div><div class=\'price\'>$136</div>'},'2':{'s':'Content/Images/Cities/Berlin.jpg','t':'<div class=\'hotel\'>Das Hotel</div><div class=\'city\'>Berlin, Germany</div><div class=\'price\'>$155</div>'},'3':{'s':'Content/Images/Cities/Cairo.jpg','t':'<div class=\'hotel\'>Sand Castle</div><div class=\'city\'>Cairo, Egypt</div><div class=\'price\'>$215</div>'},'4':{'s':'Content/Images/Cities/LA.jpg','t':'<div class=\'hotel\'>Hotel LA</div><div class=\'city\'>Los Angeles, USA</div><div class=\'price\'>$215</div>'},'5':{'s':'Content/Images/Cities/London.jpg','t':'<div class=\'hotel\'>Posh House</div><div class=\'city\'>London, England</div><div class=\'price\'>$355</div>'},'6':{'s':'Content/Images/Cities/Moscow.jpg','t':'<div class=\'hotel\'>Hotel Profit</div><div class=\'city\'>Moscow, Russia</div><div class=\'price\'>$143</div>'},'7':{'s':'Content/Images/Cities/NY.jpg','t':'<div class=\'hotel\'>The Hood</div><div class=\'city\'>New York, USA</div><div class=\'price\'>$199</div>'},'8':{'s':'Content/Images/Cities/Paris.jpg','t':'<div class=\'hotel\'>Hotel Des Ducs D\'Anjou</div><div class=\'city\'>Paris, France</div><div class=\'price\'>$438</div>'},'9':{'s':'Content/Images/Cities/Prague.jpg','t':'<div class=\'hotel\'>Hotel Tyl</div><div class=\'city\'>Prague, Czech Republic</div><div class=\'price\'>$227</div>'},'10':{'s':'Content/Images/Cities/Rio.jpg','t':'<div class=\'hotel\'>La Maison</div><div class=\'city\'>Rio, Brazil</div><div class=\'price\'>$600</div>'},'11':{'s':'Content/Images/Cities/Sydney.jpg','t':'<div class=\'hotel\'>Harbour Rocks Hotel</div><div class=\'city\'>Sydney, Australia</div><div class=\'price\'>$354</div>'},'12':{'s':'Content/Images/Cities/Tokoyo.jpg','t':'<div class=\'hotel\'>Shibuya Tobu Hotel</div><div class=\'city\'>Tokoyo, Japan</div><div class=\'price\'>$230</div>'}},'itemsCount':13,'animationType':1,'itemCssCl':'dxis-item','imgAreaCssCl':'dxis-imageArea','imageSizeMode':2,'pbh':'<div id="MainContentPlaceHolder_SpecialOffersImageSlider_nbb" class="dxWeb_isPrevBtnHor_Metropolis dxis-prevBtnHor">\r\n\r\n</div>','nbh':'<div id="MainContentPlaceHolder_SpecialOffersImageSlider_nbf" class="dxWeb_isNextBtnHor_Metropolis dxis-nextBtnHor">\r\n\r\n</div>','itemTxtCssCl':'dxis-itemTextArea','navBarCssCl':'dxis-nbBottom','thCssCl':'dxis-nbItem','thSelCssCl':'dxis-nbSelectedItem','nbpbh':'<div id="MainContentPlaceHolder_SpecialOffersImageSlider_ntbb" class="dxWeb_isPrevPageBtnHor_Metropolis dxis-prevPageBtnHor">\r\n\r\n</div>','nbnbh':'<div id="MainContentPlaceHolder_SpecialOffersImageSlider_ntbf" class="dxWeb_isNextPageBtnHor_Metropolis dxis-nextPageBtnHor">\r\n\r\n</div>','autoPlay':true});
+
+//-->
+</script>
+        </div>
+    </div>
+    <div id="MainContentPlaceHolder_pcWidgetInfo_PW-1" class="dxpcLite_Metropolis dxpclW" style="width:200px;z-index:10000;display:none;visibility:hidden;">
+	<div class="dxpc-mainDiv dxpc-shadow">
+		<div class="dxpc-contentWrapper">
+			<div class="dxpc-content" id="MainContentPlaceHolder_pcWidgetInfo_PWC-1">
+				
+                <div class="widgetPopup">
+                    <h2 class="title">DevExpress ASP.NET Widget View
+                    </h2>
+                    <br>
+                    <div class="text">
+                        Use widgets to display dynamic content and allow your end users to re-position or delete individual widget panes.
+                    </div>
+                    <br>
+                    <div class="dxbButton_Metropolis dxbButtonSys dxbTSys" id="MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup" style="background-color:#F7F7F7;font-size:14px;height:40px;width:300px;-webkit-user-select:none;">
+					<div class="dxb" id="MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup_CD">
+						<div class="dxb-hbc">
+							<input id="MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup_I" class="dxb-hb" value="Close" type="submit" name="ctl00$MainContentPlaceHolder$pcWidgetInfo$btnCloseWidgetPopup">
+						</div><span class="dx-vam">Close</span>
+					</div>
+				</div><script id="dxss_1825735197" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup',[[['dxbButtonHover_Metropolis'],['background-color:#F88E1D;'],[''],['','TC']]]);
+ASPx.AddPressedItems('MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup',[[['dxbButtonPressed_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddDisabledItems('MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup',[[['dxbDisabled_Metropolis'],[''],[''],['','TC']]]);
+ASPx.AddSelectedItems('MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup',[[['dxbf'],[''],['CD']]]);
+ASPx.createControl(ASPxClientButton,'MainContentPlaceHolder_pcWidgetInfo_btnCloseWidgetPopup','',{'uniqueID':'ctl00$MainContentPlaceHolder$pcWidgetInfo$btnCloseWidgetPopup'},{'Click':function(s, e) { pcWidgetInfo.Hide(); }});
+
+//-->
+</script>
+                </div>
+            
+			</div>
+		</div>
+	</div>
+</div><div id="MainContentPlaceHolder_pcWidgetInfo_DXPWMB-1" class="dxpcModalBackLite_Metropolis" style="z-index:9999;">
+
+</div><table id="MainContentPlaceHolder_pcWidgetInfo_LP" class="dxpcLoadingPanel_Metropolis dxlpLoadingPanel_Metropolis" style="left:0px;top:0px;z-index:30000;display:none;">
+	<tbody><tr>
+		<td class="dx" style="padding-right:0px;"><img class="dxlp-loadingImage dxlp-imgPosLeft" src="/RWA/DXHotels/DXR.axd?r=1_87-L81it" alt="" style="vertical-align:middle;"></td><td class="dx" style="padding-left:0px;"><span id="MainContentPlaceHolder_pcWidgetInfo_TL">Loading…</span></td>
+	</tr>
+</tbody></table><div id="MainContentPlaceHolder_pcWidgetInfo_LD" class="dxpcLoadingDiv_Metropolis dxlpLoadingDiv_Metropolis dx-ft" style="left:0px;top:0px;z-index:29999;display:none;position:absolute;">
+
+</div><script id="dxss_903958575" data-executed="true">
+<!--
+ASPx.AddHoverItems('MainContentPlaceHolder_pcWidgetInfo',[[['dxpc-closeBtnHover'],[''],['HCB-1']]]);
+ASPx.createControl(ASPxClientPopupControl,'MainContentPlaceHolder_pcWidgetInfo','pcWidgetInfo',{'callBack':function(arg) { WebForm_DoCallback('ctl00$MainContentPlaceHolder$pcWidgetInfo',arg,ASPx.Callback,'MainContentPlaceHolder_pcWidgetInfo',ASPx.CallbackError,true); },'uniqueID':'ctl00$MainContentPlaceHolder$pcWidgetInfo','popupAnimationType':'fade','popupHorizontalAlign':'WindowCenter','popupVerticalAlign':'WindowCenter','isPopupPositionCorrectionOn':false,'modal':true,'hideBodyScrollWhenModal':false});
+
+//-->
+</script>
+
+            </div>
+            <div class="footer">
+                <div class="columns content-column">
+                    <div class="column rightBorder">
+                        <h5>Getting Started Today</h5>
+                        <div class="text">The DevExpress ASP.NET Subscription includes 110+ WebForm Controls and 70+ MVC Extensions.</div>
+                        <div class="text"><a class="orangeLink" href="https://www.devexpress.com/products/try/">Download your free 30-day trial</a></div>
+                    </div>
+                    <div class="column rightBorder">
+                        <h5>We Are Here To Help</h5>
+                        <div class="text">Tell us how we can help you build the next great asp.net web app.</div>
+                        <div class="text"><a class="orangeLink" href="mailto:info@devexpress.com">info@devexpress.com</a></div>
+                    </div>
+                    <div class="column">
+                        <h5>The Following DevExpress ASP.NET Controls Were Used On This Page</h5>
+                        <div class="text">
+                            
+    ASP.NET Images Gallery<br>
+    ASP.NET Data Editors Library<br>
+    ASP.NET Popup Controls
+
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="info">
+                    <div class="content-column">
+                        <div class="copyright">
+                            Copyright (c) 2024 Developer Express Inc.<br>This website demonstrates use of DevExpress ASP.NET Controls. Hotel rooms cannot be booked using this website.
+                        </div>
+                        <div class="logo">
+                            <a class="dxeHyperlink_Metropolis" id="DevExpressHyperLink" href="http://www.devexpress.com/" style="height:35px;width:172px;display:inline-block;"><img src="Content/Images/172x35.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+var callBackFrameUrl='/RWA/DXHotels/WebResource.axd?d=beToSAE3vdsL1QUQUxjWdXGrZ25AemV3tnKuLls1xcPoIiLMHUbVW55pccpEM-HXAyEYKg2&t=638459572569584809';
+WebForm_InitCallback();//]]>
+</script>
+<input type="hidden" name="DXScript" value="1_9,1_10,1_253,1_21,1_62,1_11,1_12,1_13,1_180,1_15,1_39,1_58,1_181,1_182,1_201,1_19,1_20,1_188,1_184,1_191,1_200,1_190,1_192,1_193,1_46,1_7,1_52,1_51,1_53,1_187,1_57,1_54"><input type="hidden" name="DXCss" value="1_66,1_67,1_207,0_2211,0_8,0_2206,0_2313,0_2318,1_208,1_72"></form>
+<script type="text/javascript" id="">var _paq=window._paq=window._paq||[];_paq.push(["setUserId",google_tag_manager["rm"]["6917487"](4)]);_paq.push(["setCookieDomain","*.devexpress.com"]);_paq.push(["setDomains","*.devexpress.com"]);_paq.push(["enableLinkTracking"]);_paq.push(["setSecureCookie",!0]);_paq.push(["trackPageView"]);
+(function(){var c="//matomo.devexpress.com/";_paq.push(["setTrackerUrl",c+"matomo.php"]);_paq.push(["setSiteId","3"]);var a=document,b=a.createElement("script");a=a.getElementsByTagName("script")[0];b.type="text/javascript";b.async=!0;b.src=c+"matomo.js";a.parentNode.insertBefore(b,a)})();</script>
+
+
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8b7f61a0c9473eeb',t:'MTcyNDQ2MDk3NC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe><script defer="" src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon="{&quot;rayId&quot;:&quot;8b7f61a0c9473eeb&quot;,&quot;serverTiming&quot;:{&quot;name&quot;:{&quot;cfL4&quot;:true}},&quot;version&quot;:&quot;2024.8.0&quot;,&quot;token&quot;:&quot;e002800a02f74f34a6bcea8ff41b981f&quot;}" crossorigin="anonymous"></script>
+
+
+</body></html>
