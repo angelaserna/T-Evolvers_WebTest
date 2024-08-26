@@ -7,12 +7,6 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.MoveMouse;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
 public class AdjustSlider implements Task {
@@ -34,18 +28,12 @@ public class AdjustSlider implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-        /*WebElementFacade slider = DxHotelsPage.SLIDER.resolveFor(actor);
+        WebElementFacade slider = DxHotelsPage.SLIDER.resolveFor(actor);
         int width = slider.getSize().getWidth();
         int xCoord = (int) (width * ((Integer.parseInt(rate_min) - 208.0) / (999.0 - Integer.parseInt(rate_max))));
 
         Actions actions = new Actions(actor.abilityTo(BrowseTheWeb.class).getDriver());
         actions.dragAndDropBy(slider, xCoord, 0).perform();
-
-        //int width = slider.getSize().getWidth();
-        //int xCoord = (int) (width * ((Integer.parseInt(rate_min) - 208.0) / (999.0 - Integer.parseInt(rate_max))));
-        //new Actions(slider.getDriver()).dragAndDropBy(slider, xCoord, 0).perform();*/
-
-
 
     }
 }

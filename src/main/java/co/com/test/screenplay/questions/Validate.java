@@ -10,4 +10,5 @@ public class Validate {
     public static Question<Boolean> message(String expectedResult, Target frontText) {
         return new FailedMessage(expectedResult, frontText);
     }
+
 }

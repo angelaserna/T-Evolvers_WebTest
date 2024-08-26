@@ -13,5 +13,5 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
         glue="co.com.test.screenplay.stepdefinitions",
         snippets=SnippetType.CAMELCASE		)
 
-public class RunnerTags {
+public class RunnerReservation {
 }

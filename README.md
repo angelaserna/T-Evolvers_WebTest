@@ -79,9 +79,22 @@ Ejecutar paquete o funcionalidad completa:
 
     gradlew.bat clean test --tests co.com.test.screenplay.runners.* aggregate -i
 
+Ejecutar todo el set de pruebas:
+
+    ./gradlew clean test
+
+Genera el reporte de evidencias
+
+    ./gradlew aggregate
+
+El reporte de evidencias se encontrará en la ruta:
+
+    build/reports/serenity/index.html
+
+
 ---
 
-##Defectos encontrados en las pruebas realizadas a la aplicacion web demos.devexpress.com - dxhotels
+##Defectos encontrados en las pruebas realizadas a la aplicacion web Dx Hotels
 Se construyeron script de automatización para las funcionalidades del login y para la reservación de un hotel de acuerdo a unos parématros específicos.
 
 ###Login

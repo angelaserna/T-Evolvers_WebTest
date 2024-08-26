@@ -11,6 +11,8 @@ public class Reservation {
     private String rate_max;
     private String score;
 
+    private String hotelName;
+
     public String getLocation() {
         return location;
     }
@@ -81,5 +83,13 @@ public class Reservation {
 
     public void setScore(String score) {
         this.score = score;
+    }
+
+    public String getHotelName() {
+        return hotelName;
+    }
+
+    public void setHotelName(String hotelName) {
+        this.hotelName = hotelName;
     }
 }
